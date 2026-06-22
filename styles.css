@@ -408,6 +408,10 @@ header {
   overflow-x: auto;
   padding-bottom: 4px;
   scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  min-width: 0;
+  width: 100%;
 }
 
 .gen-btn {
@@ -441,6 +445,10 @@ header {
   overflow-x: auto;
   padding-bottom: 4px;
   scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  min-width: 0;
+  width: 100%;
 }
 
 .type-btn {
