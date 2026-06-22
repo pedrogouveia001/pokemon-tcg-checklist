@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon TCG Coleção & Checklist</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Lucide Icons for clean aesthetic icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header>
+      <div class="header-title">
+        <h1>
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles" style="color: #ca8a04;"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275Z"/><path d="m5 3 1 2.5L8.5 6 6 7 5 9.5 4 7 1.5 6 4 5.5Z"/><path d="m19 17 1 2.5 2.5.5-2.5 1-1 2.5-1-2.5-2.5-1 2.5-1Z"/></svg>
+          Pokémon TCG Checklist
+        </h1>
+        <p>Marque suas cartas do Pokémon TCG e acompanhe seu progresso na Pokédex Nacional</p>
+      </div>
+    </header>
+
+    <!-- Dashboard -->
+    <section class="dashboard">
+      <!-- Progresso Geral -->
+      <div class="db-card db-overall">
+        <div class="db-card-title">
+          <i data-lucide="bar-chart-2"></i>
+          <span>Progresso Geral</span>
+        </div>
+        <div class="progress-circles-container">
+          <div class="progress-circle-wrapper">
+            <svg class="circle-svg">
+              <circle class="circle-bg" cx="50" cy="50" r="40" />
+              <circle id="pokedex-progress-circle" class="circle-val" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="251.2" />
+            </svg>
+            <span id="pokedex-progress-text" class="circle-text">0%</span>
+            <span class="circle-label">Pokédex Concluída</span>
+          </div>
+          <div class="progress-circle-wrapper">
+            <svg class="circle-svg">
+              <circle class="circle-bg" cx="50" cy="50" r="40" />
+              <circle id="cards-progress-circle" class="circle-val circle-val-cards" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="251.2" />
+            </svg>
+            <span id="cards-progress-text" class="circle-text">0</span>
+            <span class="circle-label">Total de Cartas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Estatísticas Rápidas -->
+      <div class="db-card db-quick">
+        <div class="db-card-title">
+          <i data-lucide="award"></i>
+          <span>Estatísticas Rápidas</span>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-icon" style="color: #ca8a04;">🃏</div>
+            <div class="stat-info">
+              <span id="stat-total-cards" class="stat-number">0</span>
+              <span class="stat-name">Cartas Colecionadas</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon" style="color: #2563eb;">🔴</div>
+            <div class="stat-info">
+              <span id="stat-unique-pokemon" class="stat-number">0 / 1025</span>
+              <span class="stat-name">Pokémon Registrados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Progresso por Geração -->
+      <div class="db-card db-generations">
+        <div class="db-card-title">
+          <i data-lucide="calendar"></i>
+          <span>Progresso por Geração</span>
+        </div>
+        <div id="generations-stats-list" class="gen-stats-container">
+          <!-- Gerado dinamicamente no JS -->
+        </div>
+      </div>
+
+      <!-- Distribuição por Tipo -->
+      <div class="db-card db-types">
+        <div class="db-card-title">
+          <i data-lucide="layers"></i>
+          <span>Progresso por Tipo de Pokémon</span>
+        </div>
+        <div id="types-stats-list" class="type-stats-grid">
+          <!-- Gerado dinamicamente no JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Filtros e Controles -->
+    <section class="filters-section">
+      <div class="filter-row">
+        <!-- Busca -->
+        <div class="search-wrapper">
+          <i data-lucide="search" class="search-icon"></i>
+          <input type="text" id="search-input" class="search-input" placeholder="Buscar por nome ou nº da Pokédex (ex: Pikachu ou 25)...">
+        </div>
+        
+        <!-- Seleções de Filtragem -->
+        <div class="select-wrapper">
+          <!-- Status de Coleção -->
+          <select id="status-filter" class="filter-select">
+            <option value="all">Todas as cartas</option>
+            <option value="owned">Pokémon colecionados (Possui carta)</option>
+            <option value="missing">Pokémon não colecionados (0 cartas)</option>
+          </select>
+
+          <!-- Ordenação -->
+          <select id="sort-order" class="filter-select">
+            <option value="id-asc">Nº Pokédex (Crescente)</option>
+            <option value="id-desc">Nº Pokédex (Decrescente)</option>
+            <option value="name-asc">Nome (A-Z)</option>
+            <option value="name-desc">Nome (Z-A)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Filtro por Geração -->
+      <div class="filter-row">
+        <span style="font-size: 0.9rem; font-weight: 600; color: var(--text-secondary);">Geração:</span>
+        <div id="gen-filter-buttons" class="gen-buttons-scroll">
+          <button class="gen-btn active" data-gen="all">Todas</button>
+          <button class="gen-btn" data-gen="1">G1 (Kanto)</button>
+          <button class="gen-btn" data-gen="2">G2 (Johto)</button>
+          <button class="gen-btn" data-gen="3">G3 (Hoenn)</button>
+          <button class="gen-btn" data-gen="4">G4 (Sinnoh)</button>
+          <button class="gen-btn" data-gen="5">G5 (Unova)</button>
+          <button class="gen-btn" data-gen="6">G6 (Kalos)</button>
+          <button class="gen-btn" data-gen="7">G7 (Alola)</button>
+          <button class="gen-btn" data-gen="8">G8 (Galar)</button>
+          <button class="gen-btn" data-gen="9">G9 (Paldea)</button>
+        </div>
+      </div>
+
+      <!-- Filtro por Tipo -->
+      <div class="filter-row">
+        <span style="font-size: 0.9rem; font-weight: 600; color: var(--text-secondary);">Tipo:</span>
+        <div id="type-filter-buttons" class="type-buttons-grid">
+          <button class="type-btn active" data-type="all" style="--btn-color-accent: var(--accent-color);">Todos</button>
+          <!-- Gerado dinamicamente para ter a cor exata de cada tipo -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Pokédex Grid -->
+    <main class="pokedex-grid" id="pokedex-grid">
+      <!-- Carregado via JS -->
+      <div class="loader"></div>
+    </main>
+
+    <!-- Botão de Voltar ao Topo -->
+    <button id="scroll-to-top" class="scroll-to-top" title="Voltar ao topo">
+      <i data-lucide="arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+      <p>Desenvolvido com carinho para colecionadores de Pokémon TCG. Dados fornecidos por <a href="https://pokeapi.co/" target="_blank">PokéAPI</a> e <a href="https://pokemontcg.io/" target="_blank">Pokémon TCG API</a>.</p>
+    </footer>
+  </div>
+
+  <!-- Modal de Detalhes -->
+  <div id="pokemon-modal" class="modal-overlay">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="modal-content">
+        <!-- Esquerda: Informações do Pokémon -->
+        <div class="modal-left-panel">
+          <span class="modal-pokemon-id" id="modal-pokemon-id">#001</span>
+          <h2 class="modal-pokemon-name" id="modal-pokemon-name">Bulbasaur</h2>
+          <img class="modal-pokemon-img" id="modal-pokemon-img" src="" alt="">
+          <div class="modal-pokemon-types" id="modal-pokemon-types">
+            <!-- Badges de tipos -->
+          </div>
+          <div class="modal-pokemon-details">
+            <div class="detail-row">
+              <span class="detail-label">Geração</span>
+              <span class="detail-value" id="modal-gen-val">1ª Geração</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Cartas Possuídas</span>
+              <span class="detail-value" id="modal-cards-owned-val">0</span>
+            </div>
+          </div>
+        </div>
+        <!-- Direita: Cartas TCG -->
+        <div class="modal-right-panel">
+          <div class="tcg-header">
+            <div class="tcg-header-title">
+              <h3>Cartas Oficiais do TCG</h3>
+              <p>Clique em uma carta para marcar se você a possui na sua coleção física</p>
+            </div>
+            <div class="tcg-counter" id="modal-tcg-counter">
+              0 de 0 cartas
+            </div>
+          </div>
+          <div class="tcg-grid-scroll">
+            <div class="tcg-cards-grid" id="tcg-cards-grid">
+              <!-- Cartas carregadas dinamicamente -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banco de dados estático compilado -->
+  <script src="pokemonData.js"></script>
+  <!-- Lógica da aplicação -->
+  <script src="app.js"></script>
+</body>
+</html>
