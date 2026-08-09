@@ -15,6 +15,26 @@
   <link rel="stylesheet" href="styles.css?v=5">
   <!-- Lucide Icons for clean aesthetic icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    // Quebra cache do SW antigo (versão que ainda buscava cartas TCG)
+    (function () {
+      var FLAG = "pokedex_checklist_cache_bust_v4";
+      if (!("serviceWorker" in navigator) || sessionStorage.getItem(FLAG)) return;
+      sessionStorage.setItem(FLAG, "1");
+      Promise.all([
+        caches.keys().then(function (keys) {
+          return Promise.all(keys.map(function (k) { return caches.delete(k); }));
+        }),
+        navigator.serviceWorker.getRegistrations().then(function (regs) {
+          return Promise.all(regs.map(function (r) { return r.unregister(); }));
+        })
+      ]).then(function () {
+        location.reload(true);
+      }).catch(function () {
+        location.reload(true);
+      });
+    })();
+  </script>
 </head>
 <body>
   <div class="app-container">
@@ -214,6 +234,6 @@
   </div>
 
   <script src="pokemonData.js?v=2"></script>
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
