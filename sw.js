@@ -1,8 +1,8 @@
-const CACHE_NAME = "pokemon-tcg-checklist-v1";
+const CACHE_NAME = "pokemon-tcg-checklist-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./styles.css?v=3",
+  "./styles.css?v=4",
   "./app.js?v=3",
   "./pokemonData.js",
   "./manifest.webmanifest",
