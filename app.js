@@ -480,6 +480,27 @@ function updateModalCardsOwnedCount(pokemonId) {
   modalCardsOwnedVal.textContent = ownedCount;
 }
 
+// Normaliza o payload da TCGdex para o formato usado pelo modal/checklist
+function normalizeTcgdexCard(card) {
+  if (!card?.id || !card?.image) return null;
+
+  const setId = card.id.includes("-") ? card.id.slice(0, card.id.lastIndexOf("-")) : card.id;
+
+  return {
+    id: card.id,
+    name: card.name,
+    number: card.localId || "",
+    images: {
+      small: `${card.image}/low.webp`,
+      large: `${card.image}/high.webp`
+    },
+    set: {
+      id: setId,
+      name: setId
+    }
+  };
+}
+
 // Buscar ilustrações de todas as cartas de TCG para o Pokémon
 async function fetchTcgCards(pokemonId) {
   tcgCardsGrid.innerHTML = `
@@ -491,20 +512,19 @@ async function fetchTcgCards(pokemonId) {
   modalTcgCounter.textContent = "Carregando...";
 
   try {
-    // Fazer requisição à API oficial do Pokémon TCG
-    const response = await fetch(`https://api.pokemontcg.io/v2/cards?q=nationalPokedexNumbers:${pokemonId}`);
+    // pokemontcg.io está instável nas buscas por Pokédex (500); TCGdex cobre o mesmo caso
+    const response = await fetch(
+      `https://api.tcgdex.net/v2/en/cards?dexId=eq:${encodeURIComponent(pokemonId)}`
+    );
     if (!response.ok) {
       throw new Error(`Erro na API: ${response.status}`);
     }
-    const data = await response.json();
-    const cards = data.data || [];
 
-    // Ordenar cartas (pelo ano/coleção se possível, ou simplesmente por ID do set)
-    cards.sort((a, b) => {
-      const setA = a.set?.releaseDate || "";
-      const setB = b.set?.releaseDate || "";
-      return setA.localeCompare(setB);
-    });
+    const data = await response.json();
+    const cards = (Array.isArray(data) ? data : [])
+      .map(normalizeTcgdexCard)
+      .filter(Boolean)
+      .sort((a, b) => a.id.localeCompare(b.id));
 
     renderTcgCards(cards, pokemonId);
   } catch (error) {
