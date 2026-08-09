@@ -9846,4 +9846,4 @@ const pokemonData = [
     ],
     "generation": 9
   }
-];\n
+];
