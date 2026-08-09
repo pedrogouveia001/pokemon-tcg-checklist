@@ -1,10 +1,10 @@
-const CACHE_NAME = "pokemon-tcg-checklist-v2";
+const CACHE_NAME = "pokemon-tcg-checklist-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./styles.css?v=4",
-  "./app.js?v=3",
-  "./pokemonData.js",
+  "./styles.css?v=5",
+  "./app.js?v=4",
+  "./pokemonData.js?v=2",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
@@ -31,7 +31,6 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(request.url);
 
-  // APIs e CDNs externas: rede primeiro (cartas TCG, sprites, Lucide)
   if (url.origin !== self.location.origin) {
     event.respondWith(
       fetch(request)
@@ -41,7 +40,6 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // App shell local: cache primeiro, com atualização em segundo plano
   event.respondWith(
     caches.match(request).then((cached) => {
       const networkFetch = fetch(request)

@@ -1,8 +1,9 @@
-// Banco de dados estatico de Pokemon (1-1025) gerado automaticamente
+// Banco de dados estático de Pokémon (1-1025) gerado automaticamente
 const pokemonData = [
   {
     "id": 1,
     "name": "Bulbasaur",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -12,6 +13,7 @@ const pokemonData = [
   {
     "id": 2,
     "name": "Ivysaur",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -21,6 +23,7 @@ const pokemonData = [
   {
     "id": 3,
     "name": "Venusaur",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -30,6 +33,7 @@ const pokemonData = [
   {
     "id": 4,
     "name": "Charmander",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -38,6 +42,7 @@ const pokemonData = [
   {
     "id": 5,
     "name": "Charmeleon",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -46,6 +51,7 @@ const pokemonData = [
   {
     "id": 6,
     "name": "Charizard",
+    "aliases": [],
     "types": [
       "fire",
       "flying"
@@ -55,6 +61,7 @@ const pokemonData = [
   {
     "id": 7,
     "name": "Squirtle",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -63,6 +70,7 @@ const pokemonData = [
   {
     "id": 8,
     "name": "Wartortle",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -71,6 +79,7 @@ const pokemonData = [
   {
     "id": 9,
     "name": "Blastoise",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -79,6 +88,7 @@ const pokemonData = [
   {
     "id": 10,
     "name": "Caterpie",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -87,6 +97,7 @@ const pokemonData = [
   {
     "id": 11,
     "name": "Metapod",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -95,6 +106,7 @@ const pokemonData = [
   {
     "id": 12,
     "name": "Butterfree",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -104,6 +116,7 @@ const pokemonData = [
   {
     "id": 13,
     "name": "Weedle",
+    "aliases": [],
     "types": [
       "bug",
       "poison"
@@ -113,6 +126,7 @@ const pokemonData = [
   {
     "id": 14,
     "name": "Kakuna",
+    "aliases": [],
     "types": [
       "bug",
       "poison"
@@ -122,6 +136,7 @@ const pokemonData = [
   {
     "id": 15,
     "name": "Beedrill",
+    "aliases": [],
     "types": [
       "bug",
       "poison"
@@ -131,6 +146,7 @@ const pokemonData = [
   {
     "id": 16,
     "name": "Pidgey",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -140,6 +156,7 @@ const pokemonData = [
   {
     "id": 17,
     "name": "Pidgeotto",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -149,6 +166,7 @@ const pokemonData = [
   {
     "id": 18,
     "name": "Pidgeot",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -158,6 +176,7 @@ const pokemonData = [
   {
     "id": 19,
     "name": "Rattata",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -166,6 +185,7 @@ const pokemonData = [
   {
     "id": 20,
     "name": "Raticate",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -174,6 +194,7 @@ const pokemonData = [
   {
     "id": 21,
     "name": "Spearow",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -183,6 +204,7 @@ const pokemonData = [
   {
     "id": 22,
     "name": "Fearow",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -192,6 +214,7 @@ const pokemonData = [
   {
     "id": 23,
     "name": "Ekans",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -200,6 +223,7 @@ const pokemonData = [
   {
     "id": 24,
     "name": "Arbok",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -208,6 +232,7 @@ const pokemonData = [
   {
     "id": 25,
     "name": "Pikachu",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -216,6 +241,7 @@ const pokemonData = [
   {
     "id": 26,
     "name": "Raichu",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -224,6 +250,7 @@ const pokemonData = [
   {
     "id": 27,
     "name": "Sandshrew",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -232,6 +259,7 @@ const pokemonData = [
   {
     "id": 28,
     "name": "Sandslash",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -239,7 +267,8 @@ const pokemonData = [
   },
   {
     "id": 29,
-    "name": "Nidoran-f",
+    "name": "Nidoran♀",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -248,6 +277,7 @@ const pokemonData = [
   {
     "id": 30,
     "name": "Nidorina",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -256,6 +286,7 @@ const pokemonData = [
   {
     "id": 31,
     "name": "Nidoqueen",
+    "aliases": [],
     "types": [
       "poison",
       "ground"
@@ -264,7 +295,8 @@ const pokemonData = [
   },
   {
     "id": 32,
-    "name": "Nidoran-m",
+    "name": "Nidoran♂",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -273,6 +305,7 @@ const pokemonData = [
   {
     "id": 33,
     "name": "Nidorino",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -281,6 +314,7 @@ const pokemonData = [
   {
     "id": 34,
     "name": "Nidoking",
+    "aliases": [],
     "types": [
       "poison",
       "ground"
@@ -290,6 +324,7 @@ const pokemonData = [
   {
     "id": 35,
     "name": "Clefairy",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -298,6 +333,7 @@ const pokemonData = [
   {
     "id": 36,
     "name": "Clefable",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -306,6 +342,7 @@ const pokemonData = [
   {
     "id": 37,
     "name": "Vulpix",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -314,6 +351,7 @@ const pokemonData = [
   {
     "id": 38,
     "name": "Ninetales",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -322,6 +360,7 @@ const pokemonData = [
   {
     "id": 39,
     "name": "Jigglypuff",
+    "aliases": [],
     "types": [
       "normal",
       "fairy"
@@ -331,6 +370,7 @@ const pokemonData = [
   {
     "id": 40,
     "name": "Wigglytuff",
+    "aliases": [],
     "types": [
       "normal",
       "fairy"
@@ -340,6 +380,7 @@ const pokemonData = [
   {
     "id": 41,
     "name": "Zubat",
+    "aliases": [],
     "types": [
       "poison",
       "flying"
@@ -349,6 +390,7 @@ const pokemonData = [
   {
     "id": 42,
     "name": "Golbat",
+    "aliases": [],
     "types": [
       "poison",
       "flying"
@@ -358,6 +400,7 @@ const pokemonData = [
   {
     "id": 43,
     "name": "Oddish",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -367,6 +410,7 @@ const pokemonData = [
   {
     "id": 44,
     "name": "Gloom",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -376,6 +420,7 @@ const pokemonData = [
   {
     "id": 45,
     "name": "Vileplume",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -385,6 +430,7 @@ const pokemonData = [
   {
     "id": 46,
     "name": "Paras",
+    "aliases": [],
     "types": [
       "bug",
       "grass"
@@ -394,6 +440,7 @@ const pokemonData = [
   {
     "id": 47,
     "name": "Parasect",
+    "aliases": [],
     "types": [
       "bug",
       "grass"
@@ -403,6 +450,7 @@ const pokemonData = [
   {
     "id": 48,
     "name": "Venonat",
+    "aliases": [],
     "types": [
       "bug",
       "poison"
@@ -412,6 +460,7 @@ const pokemonData = [
   {
     "id": 49,
     "name": "Venomoth",
+    "aliases": [],
     "types": [
       "bug",
       "poison"
@@ -421,6 +470,7 @@ const pokemonData = [
   {
     "id": 50,
     "name": "Diglett",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -429,6 +479,7 @@ const pokemonData = [
   {
     "id": 51,
     "name": "Dugtrio",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -437,6 +488,7 @@ const pokemonData = [
   {
     "id": 52,
     "name": "Meowth",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -445,6 +497,7 @@ const pokemonData = [
   {
     "id": 53,
     "name": "Persian",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -453,6 +506,7 @@ const pokemonData = [
   {
     "id": 54,
     "name": "Psyduck",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -461,6 +515,7 @@ const pokemonData = [
   {
     "id": 55,
     "name": "Golduck",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -469,6 +524,7 @@ const pokemonData = [
   {
     "id": 56,
     "name": "Mankey",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -477,6 +533,7 @@ const pokemonData = [
   {
     "id": 57,
     "name": "Primeape",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -485,6 +542,7 @@ const pokemonData = [
   {
     "id": 58,
     "name": "Growlithe",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -493,6 +551,7 @@ const pokemonData = [
   {
     "id": 59,
     "name": "Arcanine",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -501,6 +560,7 @@ const pokemonData = [
   {
     "id": 60,
     "name": "Poliwag",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -509,6 +569,7 @@ const pokemonData = [
   {
     "id": 61,
     "name": "Poliwhirl",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -517,6 +578,7 @@ const pokemonData = [
   {
     "id": 62,
     "name": "Poliwrath",
+    "aliases": [],
     "types": [
       "water",
       "fighting"
@@ -526,6 +588,7 @@ const pokemonData = [
   {
     "id": 63,
     "name": "Abra",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -534,6 +597,7 @@ const pokemonData = [
   {
     "id": 64,
     "name": "Kadabra",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -542,6 +606,7 @@ const pokemonData = [
   {
     "id": 65,
     "name": "Alakazam",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -550,6 +615,7 @@ const pokemonData = [
   {
     "id": 66,
     "name": "Machop",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -558,6 +624,7 @@ const pokemonData = [
   {
     "id": 67,
     "name": "Machoke",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -566,6 +633,7 @@ const pokemonData = [
   {
     "id": 68,
     "name": "Machamp",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -574,6 +642,7 @@ const pokemonData = [
   {
     "id": 69,
     "name": "Bellsprout",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -583,6 +652,7 @@ const pokemonData = [
   {
     "id": 70,
     "name": "Weepinbell",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -592,6 +662,7 @@ const pokemonData = [
   {
     "id": 71,
     "name": "Victreebel",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -601,6 +672,7 @@ const pokemonData = [
   {
     "id": 72,
     "name": "Tentacool",
+    "aliases": [],
     "types": [
       "water",
       "poison"
@@ -610,6 +682,7 @@ const pokemonData = [
   {
     "id": 73,
     "name": "Tentacruel",
+    "aliases": [],
     "types": [
       "water",
       "poison"
@@ -619,6 +692,7 @@ const pokemonData = [
   {
     "id": 74,
     "name": "Geodude",
+    "aliases": [],
     "types": [
       "rock",
       "ground"
@@ -628,6 +702,7 @@ const pokemonData = [
   {
     "id": 75,
     "name": "Graveler",
+    "aliases": [],
     "types": [
       "rock",
       "ground"
@@ -637,6 +712,7 @@ const pokemonData = [
   {
     "id": 76,
     "name": "Golem",
+    "aliases": [],
     "types": [
       "rock",
       "ground"
@@ -646,6 +722,7 @@ const pokemonData = [
   {
     "id": 77,
     "name": "Ponyta",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -654,6 +731,7 @@ const pokemonData = [
   {
     "id": 78,
     "name": "Rapidash",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -662,6 +740,7 @@ const pokemonData = [
   {
     "id": 79,
     "name": "Slowpoke",
+    "aliases": [],
     "types": [
       "water",
       "psychic"
@@ -671,6 +750,7 @@ const pokemonData = [
   {
     "id": 80,
     "name": "Slowbro",
+    "aliases": [],
     "types": [
       "water",
       "psychic"
@@ -680,6 +760,7 @@ const pokemonData = [
   {
     "id": 81,
     "name": "Magnemite",
+    "aliases": [],
     "types": [
       "electric",
       "steel"
@@ -689,6 +770,7 @@ const pokemonData = [
   {
     "id": 82,
     "name": "Magneton",
+    "aliases": [],
     "types": [
       "electric",
       "steel"
@@ -697,7 +779,8 @@ const pokemonData = [
   },
   {
     "id": 83,
-    "name": "Farfetchd",
+    "name": "Farfetch’d",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -707,6 +790,7 @@ const pokemonData = [
   {
     "id": 84,
     "name": "Doduo",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -716,6 +800,7 @@ const pokemonData = [
   {
     "id": 85,
     "name": "Dodrio",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -725,6 +810,7 @@ const pokemonData = [
   {
     "id": 86,
     "name": "Seel",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -733,6 +819,7 @@ const pokemonData = [
   {
     "id": 87,
     "name": "Dewgong",
+    "aliases": [],
     "types": [
       "water",
       "ice"
@@ -742,6 +829,7 @@ const pokemonData = [
   {
     "id": 88,
     "name": "Grimer",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -750,6 +838,7 @@ const pokemonData = [
   {
     "id": 89,
     "name": "Muk",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -758,6 +847,7 @@ const pokemonData = [
   {
     "id": 90,
     "name": "Shellder",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -766,6 +856,7 @@ const pokemonData = [
   {
     "id": 91,
     "name": "Cloyster",
+    "aliases": [],
     "types": [
       "water",
       "ice"
@@ -775,6 +866,7 @@ const pokemonData = [
   {
     "id": 92,
     "name": "Gastly",
+    "aliases": [],
     "types": [
       "ghost",
       "poison"
@@ -784,6 +876,7 @@ const pokemonData = [
   {
     "id": 93,
     "name": "Haunter",
+    "aliases": [],
     "types": [
       "ghost",
       "poison"
@@ -793,6 +886,7 @@ const pokemonData = [
   {
     "id": 94,
     "name": "Gengar",
+    "aliases": [],
     "types": [
       "ghost",
       "poison"
@@ -802,6 +896,7 @@ const pokemonData = [
   {
     "id": 95,
     "name": "Onix",
+    "aliases": [],
     "types": [
       "rock",
       "ground"
@@ -811,6 +906,7 @@ const pokemonData = [
   {
     "id": 96,
     "name": "Drowzee",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -819,6 +915,7 @@ const pokemonData = [
   {
     "id": 97,
     "name": "Hypno",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -827,6 +924,7 @@ const pokemonData = [
   {
     "id": 98,
     "name": "Krabby",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -835,6 +933,7 @@ const pokemonData = [
   {
     "id": 99,
     "name": "Kingler",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -843,6 +942,7 @@ const pokemonData = [
   {
     "id": 100,
     "name": "Voltorb",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -851,6 +951,7 @@ const pokemonData = [
   {
     "id": 101,
     "name": "Electrode",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -859,6 +960,7 @@ const pokemonData = [
   {
     "id": 102,
     "name": "Exeggcute",
+    "aliases": [],
     "types": [
       "grass",
       "psychic"
@@ -868,6 +970,7 @@ const pokemonData = [
   {
     "id": 103,
     "name": "Exeggutor",
+    "aliases": [],
     "types": [
       "grass",
       "psychic"
@@ -877,6 +980,7 @@ const pokemonData = [
   {
     "id": 104,
     "name": "Cubone",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -885,6 +989,7 @@ const pokemonData = [
   {
     "id": 105,
     "name": "Marowak",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -893,6 +998,7 @@ const pokemonData = [
   {
     "id": 106,
     "name": "Hitmonlee",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -901,6 +1007,7 @@ const pokemonData = [
   {
     "id": 107,
     "name": "Hitmonchan",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -909,6 +1016,7 @@ const pokemonData = [
   {
     "id": 108,
     "name": "Lickitung",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -917,6 +1025,7 @@ const pokemonData = [
   {
     "id": 109,
     "name": "Koffing",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -925,6 +1034,7 @@ const pokemonData = [
   {
     "id": 110,
     "name": "Weezing",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -933,6 +1043,7 @@ const pokemonData = [
   {
     "id": 111,
     "name": "Rhyhorn",
+    "aliases": [],
     "types": [
       "ground",
       "rock"
@@ -942,6 +1053,7 @@ const pokemonData = [
   {
     "id": 112,
     "name": "Rhydon",
+    "aliases": [],
     "types": [
       "ground",
       "rock"
@@ -951,6 +1063,7 @@ const pokemonData = [
   {
     "id": 113,
     "name": "Chansey",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -959,6 +1072,7 @@ const pokemonData = [
   {
     "id": 114,
     "name": "Tangela",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -967,6 +1081,7 @@ const pokemonData = [
   {
     "id": 115,
     "name": "Kangaskhan",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -975,6 +1090,7 @@ const pokemonData = [
   {
     "id": 116,
     "name": "Horsea",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -983,6 +1099,7 @@ const pokemonData = [
   {
     "id": 117,
     "name": "Seadra",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -991,6 +1108,7 @@ const pokemonData = [
   {
     "id": 118,
     "name": "Goldeen",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -999,6 +1117,7 @@ const pokemonData = [
   {
     "id": 119,
     "name": "Seaking",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -1007,6 +1126,7 @@ const pokemonData = [
   {
     "id": 120,
     "name": "Staryu",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -1015,6 +1135,7 @@ const pokemonData = [
   {
     "id": 121,
     "name": "Starmie",
+    "aliases": [],
     "types": [
       "water",
       "psychic"
@@ -1023,7 +1144,8 @@ const pokemonData = [
   },
   {
     "id": 122,
-    "name": "Mr-mime",
+    "name": "Mr. Mime",
+    "aliases": [],
     "types": [
       "psychic",
       "fairy"
@@ -1033,6 +1155,7 @@ const pokemonData = [
   {
     "id": 123,
     "name": "Scyther",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -1042,6 +1165,7 @@ const pokemonData = [
   {
     "id": 124,
     "name": "Jynx",
+    "aliases": [],
     "types": [
       "ice",
       "psychic"
@@ -1051,6 +1175,7 @@ const pokemonData = [
   {
     "id": 125,
     "name": "Electabuzz",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -1059,6 +1184,7 @@ const pokemonData = [
   {
     "id": 126,
     "name": "Magmar",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -1067,6 +1193,7 @@ const pokemonData = [
   {
     "id": 127,
     "name": "Pinsir",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -1075,6 +1202,7 @@ const pokemonData = [
   {
     "id": 128,
     "name": "Tauros",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1083,6 +1211,7 @@ const pokemonData = [
   {
     "id": 129,
     "name": "Magikarp",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -1091,6 +1220,7 @@ const pokemonData = [
   {
     "id": 130,
     "name": "Gyarados",
+    "aliases": [],
     "types": [
       "water",
       "flying"
@@ -1100,6 +1230,7 @@ const pokemonData = [
   {
     "id": 131,
     "name": "Lapras",
+    "aliases": [],
     "types": [
       "water",
       "ice"
@@ -1109,6 +1240,7 @@ const pokemonData = [
   {
     "id": 132,
     "name": "Ditto",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1117,6 +1249,7 @@ const pokemonData = [
   {
     "id": 133,
     "name": "Eevee",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1125,6 +1258,7 @@ const pokemonData = [
   {
     "id": 134,
     "name": "Vaporeon",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -1133,6 +1267,7 @@ const pokemonData = [
   {
     "id": 135,
     "name": "Jolteon",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -1141,6 +1276,7 @@ const pokemonData = [
   {
     "id": 136,
     "name": "Flareon",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -1149,6 +1285,7 @@ const pokemonData = [
   {
     "id": 137,
     "name": "Porygon",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1157,6 +1294,7 @@ const pokemonData = [
   {
     "id": 138,
     "name": "Omanyte",
+    "aliases": [],
     "types": [
       "rock",
       "water"
@@ -1166,6 +1304,7 @@ const pokemonData = [
   {
     "id": 139,
     "name": "Omastar",
+    "aliases": [],
     "types": [
       "rock",
       "water"
@@ -1175,6 +1314,7 @@ const pokemonData = [
   {
     "id": 140,
     "name": "Kabuto",
+    "aliases": [],
     "types": [
       "rock",
       "water"
@@ -1184,6 +1324,7 @@ const pokemonData = [
   {
     "id": 141,
     "name": "Kabutops",
+    "aliases": [],
     "types": [
       "rock",
       "water"
@@ -1193,6 +1334,7 @@ const pokemonData = [
   {
     "id": 142,
     "name": "Aerodactyl",
+    "aliases": [],
     "types": [
       "rock",
       "flying"
@@ -1202,6 +1344,7 @@ const pokemonData = [
   {
     "id": 143,
     "name": "Snorlax",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1210,6 +1353,7 @@ const pokemonData = [
   {
     "id": 144,
     "name": "Articuno",
+    "aliases": [],
     "types": [
       "ice",
       "flying"
@@ -1219,6 +1363,7 @@ const pokemonData = [
   {
     "id": 145,
     "name": "Zapdos",
+    "aliases": [],
     "types": [
       "electric",
       "flying"
@@ -1228,6 +1373,7 @@ const pokemonData = [
   {
     "id": 146,
     "name": "Moltres",
+    "aliases": [],
     "types": [
       "fire",
       "flying"
@@ -1237,6 +1383,7 @@ const pokemonData = [
   {
     "id": 147,
     "name": "Dratini",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -1245,6 +1392,7 @@ const pokemonData = [
   {
     "id": 148,
     "name": "Dragonair",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -1253,6 +1401,7 @@ const pokemonData = [
   {
     "id": 149,
     "name": "Dragonite",
+    "aliases": [],
     "types": [
       "dragon",
       "flying"
@@ -1262,6 +1411,7 @@ const pokemonData = [
   {
     "id": 150,
     "name": "Mewtwo",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -1270,6 +1420,7 @@ const pokemonData = [
   {
     "id": 151,
     "name": "Mew",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -1278,6 +1429,7 @@ const pokemonData = [
   {
     "id": 152,
     "name": "Chikorita",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -1286,6 +1438,7 @@ const pokemonData = [
   {
     "id": 153,
     "name": "Bayleef",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -1294,6 +1447,7 @@ const pokemonData = [
   {
     "id": 154,
     "name": "Meganium",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -1302,6 +1456,7 @@ const pokemonData = [
   {
     "id": 155,
     "name": "Cyndaquil",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -1310,6 +1465,7 @@ const pokemonData = [
   {
     "id": 156,
     "name": "Quilava",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -1318,6 +1474,7 @@ const pokemonData = [
   {
     "id": 157,
     "name": "Typhlosion",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -1326,6 +1483,7 @@ const pokemonData = [
   {
     "id": 158,
     "name": "Totodile",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -1334,6 +1492,7 @@ const pokemonData = [
   {
     "id": 159,
     "name": "Croconaw",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -1342,6 +1501,7 @@ const pokemonData = [
   {
     "id": 160,
     "name": "Feraligatr",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -1350,6 +1510,7 @@ const pokemonData = [
   {
     "id": 161,
     "name": "Sentret",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1358,6 +1519,7 @@ const pokemonData = [
   {
     "id": 162,
     "name": "Furret",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1366,6 +1528,7 @@ const pokemonData = [
   {
     "id": 163,
     "name": "Hoothoot",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -1375,6 +1538,7 @@ const pokemonData = [
   {
     "id": 164,
     "name": "Noctowl",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -1384,6 +1548,7 @@ const pokemonData = [
   {
     "id": 165,
     "name": "Ledyba",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -1393,6 +1558,7 @@ const pokemonData = [
   {
     "id": 166,
     "name": "Ledian",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -1402,6 +1568,7 @@ const pokemonData = [
   {
     "id": 167,
     "name": "Spinarak",
+    "aliases": [],
     "types": [
       "bug",
       "poison"
@@ -1411,6 +1578,7 @@ const pokemonData = [
   {
     "id": 168,
     "name": "Ariados",
+    "aliases": [],
     "types": [
       "bug",
       "poison"
@@ -1420,6 +1588,7 @@ const pokemonData = [
   {
     "id": 169,
     "name": "Crobat",
+    "aliases": [],
     "types": [
       "poison",
       "flying"
@@ -1429,6 +1598,7 @@ const pokemonData = [
   {
     "id": 170,
     "name": "Chinchou",
+    "aliases": [],
     "types": [
       "water",
       "electric"
@@ -1438,6 +1608,7 @@ const pokemonData = [
   {
     "id": 171,
     "name": "Lanturn",
+    "aliases": [],
     "types": [
       "water",
       "electric"
@@ -1447,6 +1618,7 @@ const pokemonData = [
   {
     "id": 172,
     "name": "Pichu",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -1455,6 +1627,7 @@ const pokemonData = [
   {
     "id": 173,
     "name": "Cleffa",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -1463,6 +1636,7 @@ const pokemonData = [
   {
     "id": 174,
     "name": "Igglybuff",
+    "aliases": [],
     "types": [
       "normal",
       "fairy"
@@ -1472,6 +1646,7 @@ const pokemonData = [
   {
     "id": 175,
     "name": "Togepi",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -1480,6 +1655,7 @@ const pokemonData = [
   {
     "id": 176,
     "name": "Togetic",
+    "aliases": [],
     "types": [
       "fairy",
       "flying"
@@ -1489,6 +1665,7 @@ const pokemonData = [
   {
     "id": 177,
     "name": "Natu",
+    "aliases": [],
     "types": [
       "psychic",
       "flying"
@@ -1498,6 +1675,7 @@ const pokemonData = [
   {
     "id": 178,
     "name": "Xatu",
+    "aliases": [],
     "types": [
       "psychic",
       "flying"
@@ -1507,6 +1685,7 @@ const pokemonData = [
   {
     "id": 179,
     "name": "Mareep",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -1515,6 +1694,7 @@ const pokemonData = [
   {
     "id": 180,
     "name": "Flaaffy",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -1523,6 +1703,7 @@ const pokemonData = [
   {
     "id": 181,
     "name": "Ampharos",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -1531,6 +1712,7 @@ const pokemonData = [
   {
     "id": 182,
     "name": "Bellossom",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -1539,6 +1721,7 @@ const pokemonData = [
   {
     "id": 183,
     "name": "Marill",
+    "aliases": [],
     "types": [
       "water",
       "fairy"
@@ -1548,6 +1731,7 @@ const pokemonData = [
   {
     "id": 184,
     "name": "Azumarill",
+    "aliases": [],
     "types": [
       "water",
       "fairy"
@@ -1557,6 +1741,7 @@ const pokemonData = [
   {
     "id": 185,
     "name": "Sudowoodo",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -1565,6 +1750,7 @@ const pokemonData = [
   {
     "id": 186,
     "name": "Politoed",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -1573,6 +1759,7 @@ const pokemonData = [
   {
     "id": 187,
     "name": "Hoppip",
+    "aliases": [],
     "types": [
       "grass",
       "flying"
@@ -1582,6 +1769,7 @@ const pokemonData = [
   {
     "id": 188,
     "name": "Skiploom",
+    "aliases": [],
     "types": [
       "grass",
       "flying"
@@ -1591,6 +1779,7 @@ const pokemonData = [
   {
     "id": 189,
     "name": "Jumpluff",
+    "aliases": [],
     "types": [
       "grass",
       "flying"
@@ -1600,6 +1789,7 @@ const pokemonData = [
   {
     "id": 190,
     "name": "Aipom",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1608,6 +1798,7 @@ const pokemonData = [
   {
     "id": 191,
     "name": "Sunkern",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -1616,6 +1807,7 @@ const pokemonData = [
   {
     "id": 192,
     "name": "Sunflora",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -1624,6 +1816,7 @@ const pokemonData = [
   {
     "id": 193,
     "name": "Yanma",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -1633,6 +1826,7 @@ const pokemonData = [
   {
     "id": 194,
     "name": "Wooper",
+    "aliases": [],
     "types": [
       "water",
       "ground"
@@ -1642,6 +1836,7 @@ const pokemonData = [
   {
     "id": 195,
     "name": "Quagsire",
+    "aliases": [],
     "types": [
       "water",
       "ground"
@@ -1651,6 +1846,7 @@ const pokemonData = [
   {
     "id": 196,
     "name": "Espeon",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -1659,6 +1855,7 @@ const pokemonData = [
   {
     "id": 197,
     "name": "Umbreon",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -1667,6 +1864,7 @@ const pokemonData = [
   {
     "id": 198,
     "name": "Murkrow",
+    "aliases": [],
     "types": [
       "dark",
       "flying"
@@ -1676,6 +1874,7 @@ const pokemonData = [
   {
     "id": 199,
     "name": "Slowking",
+    "aliases": [],
     "types": [
       "water",
       "psychic"
@@ -1685,6 +1884,7 @@ const pokemonData = [
   {
     "id": 200,
     "name": "Misdreavus",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -1693,6 +1893,7 @@ const pokemonData = [
   {
     "id": 201,
     "name": "Unown",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -1701,6 +1902,7 @@ const pokemonData = [
   {
     "id": 202,
     "name": "Wobbuffet",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -1709,6 +1911,7 @@ const pokemonData = [
   {
     "id": 203,
     "name": "Girafarig",
+    "aliases": [],
     "types": [
       "normal",
       "psychic"
@@ -1718,6 +1921,7 @@ const pokemonData = [
   {
     "id": 204,
     "name": "Pineco",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -1726,6 +1930,7 @@ const pokemonData = [
   {
     "id": 205,
     "name": "Forretress",
+    "aliases": [],
     "types": [
       "bug",
       "steel"
@@ -1735,6 +1940,7 @@ const pokemonData = [
   {
     "id": 206,
     "name": "Dunsparce",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1743,6 +1949,7 @@ const pokemonData = [
   {
     "id": 207,
     "name": "Gligar",
+    "aliases": [],
     "types": [
       "ground",
       "flying"
@@ -1752,6 +1959,7 @@ const pokemonData = [
   {
     "id": 208,
     "name": "Steelix",
+    "aliases": [],
     "types": [
       "steel",
       "ground"
@@ -1761,6 +1969,7 @@ const pokemonData = [
   {
     "id": 209,
     "name": "Snubbull",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -1769,6 +1978,7 @@ const pokemonData = [
   {
     "id": 210,
     "name": "Granbull",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -1777,6 +1987,7 @@ const pokemonData = [
   {
     "id": 211,
     "name": "Qwilfish",
+    "aliases": [],
     "types": [
       "water",
       "poison"
@@ -1786,6 +1997,7 @@ const pokemonData = [
   {
     "id": 212,
     "name": "Scizor",
+    "aliases": [],
     "types": [
       "bug",
       "steel"
@@ -1795,6 +2007,7 @@ const pokemonData = [
   {
     "id": 213,
     "name": "Shuckle",
+    "aliases": [],
     "types": [
       "bug",
       "rock"
@@ -1804,6 +2017,7 @@ const pokemonData = [
   {
     "id": 214,
     "name": "Heracross",
+    "aliases": [],
     "types": [
       "bug",
       "fighting"
@@ -1813,6 +2027,7 @@ const pokemonData = [
   {
     "id": 215,
     "name": "Sneasel",
+    "aliases": [],
     "types": [
       "dark",
       "ice"
@@ -1822,6 +2037,7 @@ const pokemonData = [
   {
     "id": 216,
     "name": "Teddiursa",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1830,6 +2046,7 @@ const pokemonData = [
   {
     "id": 217,
     "name": "Ursaring",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1838,6 +2055,7 @@ const pokemonData = [
   {
     "id": 218,
     "name": "Slugma",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -1846,6 +2064,7 @@ const pokemonData = [
   {
     "id": 219,
     "name": "Magcargo",
+    "aliases": [],
     "types": [
       "fire",
       "rock"
@@ -1855,6 +2074,7 @@ const pokemonData = [
   {
     "id": 220,
     "name": "Swinub",
+    "aliases": [],
     "types": [
       "ice",
       "ground"
@@ -1864,6 +2084,7 @@ const pokemonData = [
   {
     "id": 221,
     "name": "Piloswine",
+    "aliases": [],
     "types": [
       "ice",
       "ground"
@@ -1873,6 +2094,7 @@ const pokemonData = [
   {
     "id": 222,
     "name": "Corsola",
+    "aliases": [],
     "types": [
       "water",
       "rock"
@@ -1882,6 +2104,7 @@ const pokemonData = [
   {
     "id": 223,
     "name": "Remoraid",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -1890,6 +2113,7 @@ const pokemonData = [
   {
     "id": 224,
     "name": "Octillery",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -1898,6 +2122,7 @@ const pokemonData = [
   {
     "id": 225,
     "name": "Delibird",
+    "aliases": [],
     "types": [
       "ice",
       "flying"
@@ -1907,6 +2132,7 @@ const pokemonData = [
   {
     "id": 226,
     "name": "Mantine",
+    "aliases": [],
     "types": [
       "water",
       "flying"
@@ -1916,6 +2142,7 @@ const pokemonData = [
   {
     "id": 227,
     "name": "Skarmory",
+    "aliases": [],
     "types": [
       "steel",
       "flying"
@@ -1925,6 +2152,7 @@ const pokemonData = [
   {
     "id": 228,
     "name": "Houndour",
+    "aliases": [],
     "types": [
       "dark",
       "fire"
@@ -1934,6 +2162,7 @@ const pokemonData = [
   {
     "id": 229,
     "name": "Houndoom",
+    "aliases": [],
     "types": [
       "dark",
       "fire"
@@ -1943,6 +2172,7 @@ const pokemonData = [
   {
     "id": 230,
     "name": "Kingdra",
+    "aliases": [],
     "types": [
       "water",
       "dragon"
@@ -1952,6 +2182,7 @@ const pokemonData = [
   {
     "id": 231,
     "name": "Phanpy",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -1960,6 +2191,7 @@ const pokemonData = [
   {
     "id": 232,
     "name": "Donphan",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -1968,6 +2200,7 @@ const pokemonData = [
   {
     "id": 233,
     "name": "Porygon2",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1976,6 +2209,7 @@ const pokemonData = [
   {
     "id": 234,
     "name": "Stantler",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1984,6 +2218,7 @@ const pokemonData = [
   {
     "id": 235,
     "name": "Smeargle",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -1992,6 +2227,7 @@ const pokemonData = [
   {
     "id": 236,
     "name": "Tyrogue",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -2000,6 +2236,7 @@ const pokemonData = [
   {
     "id": 237,
     "name": "Hitmontop",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -2008,6 +2245,7 @@ const pokemonData = [
   {
     "id": 238,
     "name": "Smoochum",
+    "aliases": [],
     "types": [
       "ice",
       "psychic"
@@ -2017,6 +2255,7 @@ const pokemonData = [
   {
     "id": 239,
     "name": "Elekid",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -2025,6 +2264,7 @@ const pokemonData = [
   {
     "id": 240,
     "name": "Magby",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -2033,6 +2273,7 @@ const pokemonData = [
   {
     "id": 241,
     "name": "Miltank",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2041,6 +2282,7 @@ const pokemonData = [
   {
     "id": 242,
     "name": "Blissey",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2049,6 +2291,7 @@ const pokemonData = [
   {
     "id": 243,
     "name": "Raikou",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -2057,6 +2300,7 @@ const pokemonData = [
   {
     "id": 244,
     "name": "Entei",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -2065,6 +2309,7 @@ const pokemonData = [
   {
     "id": 245,
     "name": "Suicune",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -2073,6 +2318,7 @@ const pokemonData = [
   {
     "id": 246,
     "name": "Larvitar",
+    "aliases": [],
     "types": [
       "rock",
       "ground"
@@ -2082,6 +2328,7 @@ const pokemonData = [
   {
     "id": 247,
     "name": "Pupitar",
+    "aliases": [],
     "types": [
       "rock",
       "ground"
@@ -2091,6 +2338,7 @@ const pokemonData = [
   {
     "id": 248,
     "name": "Tyranitar",
+    "aliases": [],
     "types": [
       "rock",
       "dark"
@@ -2100,6 +2348,7 @@ const pokemonData = [
   {
     "id": 249,
     "name": "Lugia",
+    "aliases": [],
     "types": [
       "psychic",
       "flying"
@@ -2108,7 +2357,8 @@ const pokemonData = [
   },
   {
     "id": 250,
-    "name": "Ho-oh",
+    "name": "Ho-Oh",
+    "aliases": [],
     "types": [
       "fire",
       "flying"
@@ -2118,6 +2368,7 @@ const pokemonData = [
   {
     "id": 251,
     "name": "Celebi",
+    "aliases": [],
     "types": [
       "psychic",
       "grass"
@@ -2127,6 +2378,7 @@ const pokemonData = [
   {
     "id": 252,
     "name": "Treecko",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -2135,6 +2387,7 @@ const pokemonData = [
   {
     "id": 253,
     "name": "Grovyle",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -2143,6 +2396,7 @@ const pokemonData = [
   {
     "id": 254,
     "name": "Sceptile",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -2151,6 +2405,7 @@ const pokemonData = [
   {
     "id": 255,
     "name": "Torchic",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -2159,6 +2414,7 @@ const pokemonData = [
   {
     "id": 256,
     "name": "Combusken",
+    "aliases": [],
     "types": [
       "fire",
       "fighting"
@@ -2168,6 +2424,7 @@ const pokemonData = [
   {
     "id": 257,
     "name": "Blaziken",
+    "aliases": [],
     "types": [
       "fire",
       "fighting"
@@ -2177,6 +2434,7 @@ const pokemonData = [
   {
     "id": 258,
     "name": "Mudkip",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -2185,6 +2443,7 @@ const pokemonData = [
   {
     "id": 259,
     "name": "Marshtomp",
+    "aliases": [],
     "types": [
       "water",
       "ground"
@@ -2194,6 +2453,7 @@ const pokemonData = [
   {
     "id": 260,
     "name": "Swampert",
+    "aliases": [],
     "types": [
       "water",
       "ground"
@@ -2203,6 +2463,7 @@ const pokemonData = [
   {
     "id": 261,
     "name": "Poochyena",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -2211,6 +2472,7 @@ const pokemonData = [
   {
     "id": 262,
     "name": "Mightyena",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -2219,6 +2481,7 @@ const pokemonData = [
   {
     "id": 263,
     "name": "Zigzagoon",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2227,6 +2490,7 @@ const pokemonData = [
   {
     "id": 264,
     "name": "Linoone",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2235,6 +2499,7 @@ const pokemonData = [
   {
     "id": 265,
     "name": "Wurmple",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -2243,6 +2508,7 @@ const pokemonData = [
   {
     "id": 266,
     "name": "Silcoon",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -2251,6 +2517,7 @@ const pokemonData = [
   {
     "id": 267,
     "name": "Beautifly",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -2260,6 +2527,7 @@ const pokemonData = [
   {
     "id": 268,
     "name": "Cascoon",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -2268,6 +2536,7 @@ const pokemonData = [
   {
     "id": 269,
     "name": "Dustox",
+    "aliases": [],
     "types": [
       "bug",
       "poison"
@@ -2277,6 +2546,7 @@ const pokemonData = [
   {
     "id": 270,
     "name": "Lotad",
+    "aliases": [],
     "types": [
       "water",
       "grass"
@@ -2286,6 +2556,7 @@ const pokemonData = [
   {
     "id": 271,
     "name": "Lombre",
+    "aliases": [],
     "types": [
       "water",
       "grass"
@@ -2295,6 +2566,7 @@ const pokemonData = [
   {
     "id": 272,
     "name": "Ludicolo",
+    "aliases": [],
     "types": [
       "water",
       "grass"
@@ -2304,6 +2576,7 @@ const pokemonData = [
   {
     "id": 273,
     "name": "Seedot",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -2312,6 +2585,7 @@ const pokemonData = [
   {
     "id": 274,
     "name": "Nuzleaf",
+    "aliases": [],
     "types": [
       "grass",
       "dark"
@@ -2321,6 +2595,7 @@ const pokemonData = [
   {
     "id": 275,
     "name": "Shiftry",
+    "aliases": [],
     "types": [
       "grass",
       "dark"
@@ -2330,6 +2605,7 @@ const pokemonData = [
   {
     "id": 276,
     "name": "Taillow",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -2339,6 +2615,7 @@ const pokemonData = [
   {
     "id": 277,
     "name": "Swellow",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -2348,6 +2625,7 @@ const pokemonData = [
   {
     "id": 278,
     "name": "Wingull",
+    "aliases": [],
     "types": [
       "water",
       "flying"
@@ -2357,6 +2635,7 @@ const pokemonData = [
   {
     "id": 279,
     "name": "Pelipper",
+    "aliases": [],
     "types": [
       "water",
       "flying"
@@ -2366,6 +2645,7 @@ const pokemonData = [
   {
     "id": 280,
     "name": "Ralts",
+    "aliases": [],
     "types": [
       "psychic",
       "fairy"
@@ -2375,6 +2655,7 @@ const pokemonData = [
   {
     "id": 281,
     "name": "Kirlia",
+    "aliases": [],
     "types": [
       "psychic",
       "fairy"
@@ -2384,6 +2665,7 @@ const pokemonData = [
   {
     "id": 282,
     "name": "Gardevoir",
+    "aliases": [],
     "types": [
       "psychic",
       "fairy"
@@ -2393,6 +2675,7 @@ const pokemonData = [
   {
     "id": 283,
     "name": "Surskit",
+    "aliases": [],
     "types": [
       "bug",
       "water"
@@ -2402,6 +2685,7 @@ const pokemonData = [
   {
     "id": 284,
     "name": "Masquerain",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -2411,6 +2695,7 @@ const pokemonData = [
   {
     "id": 285,
     "name": "Shroomish",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -2419,6 +2704,7 @@ const pokemonData = [
   {
     "id": 286,
     "name": "Breloom",
+    "aliases": [],
     "types": [
       "grass",
       "fighting"
@@ -2428,6 +2714,7 @@ const pokemonData = [
   {
     "id": 287,
     "name": "Slakoth",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2436,6 +2723,7 @@ const pokemonData = [
   {
     "id": 288,
     "name": "Vigoroth",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2444,6 +2732,7 @@ const pokemonData = [
   {
     "id": 289,
     "name": "Slaking",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2452,6 +2741,7 @@ const pokemonData = [
   {
     "id": 290,
     "name": "Nincada",
+    "aliases": [],
     "types": [
       "bug",
       "ground"
@@ -2461,6 +2751,7 @@ const pokemonData = [
   {
     "id": 291,
     "name": "Ninjask",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -2470,6 +2761,7 @@ const pokemonData = [
   {
     "id": 292,
     "name": "Shedinja",
+    "aliases": [],
     "types": [
       "bug",
       "ghost"
@@ -2479,6 +2771,7 @@ const pokemonData = [
   {
     "id": 293,
     "name": "Whismur",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2487,6 +2780,7 @@ const pokemonData = [
   {
     "id": 294,
     "name": "Loudred",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2495,6 +2789,7 @@ const pokemonData = [
   {
     "id": 295,
     "name": "Exploud",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2503,6 +2798,7 @@ const pokemonData = [
   {
     "id": 296,
     "name": "Makuhita",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -2511,6 +2807,7 @@ const pokemonData = [
   {
     "id": 297,
     "name": "Hariyama",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -2519,6 +2816,7 @@ const pokemonData = [
   {
     "id": 298,
     "name": "Azurill",
+    "aliases": [],
     "types": [
       "normal",
       "fairy"
@@ -2528,6 +2826,7 @@ const pokemonData = [
   {
     "id": 299,
     "name": "Nosepass",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -2536,6 +2835,7 @@ const pokemonData = [
   {
     "id": 300,
     "name": "Skitty",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2544,6 +2844,7 @@ const pokemonData = [
   {
     "id": 301,
     "name": "Delcatty",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2552,6 +2853,7 @@ const pokemonData = [
   {
     "id": 302,
     "name": "Sableye",
+    "aliases": [],
     "types": [
       "dark",
       "ghost"
@@ -2561,6 +2863,7 @@ const pokemonData = [
   {
     "id": 303,
     "name": "Mawile",
+    "aliases": [],
     "types": [
       "steel",
       "fairy"
@@ -2570,6 +2873,7 @@ const pokemonData = [
   {
     "id": 304,
     "name": "Aron",
+    "aliases": [],
     "types": [
       "steel",
       "rock"
@@ -2579,6 +2883,7 @@ const pokemonData = [
   {
     "id": 305,
     "name": "Lairon",
+    "aliases": [],
     "types": [
       "steel",
       "rock"
@@ -2588,6 +2893,7 @@ const pokemonData = [
   {
     "id": 306,
     "name": "Aggron",
+    "aliases": [],
     "types": [
       "steel",
       "rock"
@@ -2597,6 +2903,7 @@ const pokemonData = [
   {
     "id": 307,
     "name": "Meditite",
+    "aliases": [],
     "types": [
       "fighting",
       "psychic"
@@ -2606,6 +2913,7 @@ const pokemonData = [
   {
     "id": 308,
     "name": "Medicham",
+    "aliases": [],
     "types": [
       "fighting",
       "psychic"
@@ -2615,6 +2923,7 @@ const pokemonData = [
   {
     "id": 309,
     "name": "Electrike",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -2623,6 +2932,7 @@ const pokemonData = [
   {
     "id": 310,
     "name": "Manectric",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -2631,6 +2941,7 @@ const pokemonData = [
   {
     "id": 311,
     "name": "Plusle",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -2639,6 +2950,7 @@ const pokemonData = [
   {
     "id": 312,
     "name": "Minun",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -2647,6 +2959,7 @@ const pokemonData = [
   {
     "id": 313,
     "name": "Volbeat",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -2655,6 +2968,7 @@ const pokemonData = [
   {
     "id": 314,
     "name": "Illumise",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -2663,6 +2977,7 @@ const pokemonData = [
   {
     "id": 315,
     "name": "Roselia",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -2672,6 +2987,7 @@ const pokemonData = [
   {
     "id": 316,
     "name": "Gulpin",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -2680,6 +2996,7 @@ const pokemonData = [
   {
     "id": 317,
     "name": "Swalot",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -2688,6 +3005,7 @@ const pokemonData = [
   {
     "id": 318,
     "name": "Carvanha",
+    "aliases": [],
     "types": [
       "water",
       "dark"
@@ -2697,6 +3015,7 @@ const pokemonData = [
   {
     "id": 319,
     "name": "Sharpedo",
+    "aliases": [],
     "types": [
       "water",
       "dark"
@@ -2706,6 +3025,7 @@ const pokemonData = [
   {
     "id": 320,
     "name": "Wailmer",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -2714,6 +3034,7 @@ const pokemonData = [
   {
     "id": 321,
     "name": "Wailord",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -2722,6 +3043,7 @@ const pokemonData = [
   {
     "id": 322,
     "name": "Numel",
+    "aliases": [],
     "types": [
       "fire",
       "ground"
@@ -2731,6 +3053,7 @@ const pokemonData = [
   {
     "id": 323,
     "name": "Camerupt",
+    "aliases": [],
     "types": [
       "fire",
       "ground"
@@ -2740,6 +3063,7 @@ const pokemonData = [
   {
     "id": 324,
     "name": "Torkoal",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -2748,6 +3072,7 @@ const pokemonData = [
   {
     "id": 325,
     "name": "Spoink",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -2756,6 +3081,7 @@ const pokemonData = [
   {
     "id": 326,
     "name": "Grumpig",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -2764,6 +3090,7 @@ const pokemonData = [
   {
     "id": 327,
     "name": "Spinda",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2772,6 +3099,7 @@ const pokemonData = [
   {
     "id": 328,
     "name": "Trapinch",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -2780,6 +3108,7 @@ const pokemonData = [
   {
     "id": 329,
     "name": "Vibrava",
+    "aliases": [],
     "types": [
       "ground",
       "dragon"
@@ -2789,6 +3118,7 @@ const pokemonData = [
   {
     "id": 330,
     "name": "Flygon",
+    "aliases": [],
     "types": [
       "ground",
       "dragon"
@@ -2798,6 +3128,7 @@ const pokemonData = [
   {
     "id": 331,
     "name": "Cacnea",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -2806,6 +3137,7 @@ const pokemonData = [
   {
     "id": 332,
     "name": "Cacturne",
+    "aliases": [],
     "types": [
       "grass",
       "dark"
@@ -2815,6 +3147,7 @@ const pokemonData = [
   {
     "id": 333,
     "name": "Swablu",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -2824,6 +3157,7 @@ const pokemonData = [
   {
     "id": 334,
     "name": "Altaria",
+    "aliases": [],
     "types": [
       "dragon",
       "flying"
@@ -2833,6 +3167,7 @@ const pokemonData = [
   {
     "id": 335,
     "name": "Zangoose",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2841,6 +3176,7 @@ const pokemonData = [
   {
     "id": 336,
     "name": "Seviper",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -2849,6 +3185,7 @@ const pokemonData = [
   {
     "id": 337,
     "name": "Lunatone",
+    "aliases": [],
     "types": [
       "rock",
       "psychic"
@@ -2858,6 +3195,7 @@ const pokemonData = [
   {
     "id": 338,
     "name": "Solrock",
+    "aliases": [],
     "types": [
       "rock",
       "psychic"
@@ -2867,6 +3205,7 @@ const pokemonData = [
   {
     "id": 339,
     "name": "Barboach",
+    "aliases": [],
     "types": [
       "water",
       "ground"
@@ -2876,6 +3215,7 @@ const pokemonData = [
   {
     "id": 340,
     "name": "Whiscash",
+    "aliases": [],
     "types": [
       "water",
       "ground"
@@ -2885,6 +3225,7 @@ const pokemonData = [
   {
     "id": 341,
     "name": "Corphish",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -2893,6 +3234,7 @@ const pokemonData = [
   {
     "id": 342,
     "name": "Crawdaunt",
+    "aliases": [],
     "types": [
       "water",
       "dark"
@@ -2902,6 +3244,7 @@ const pokemonData = [
   {
     "id": 343,
     "name": "Baltoy",
+    "aliases": [],
     "types": [
       "ground",
       "psychic"
@@ -2911,6 +3254,7 @@ const pokemonData = [
   {
     "id": 344,
     "name": "Claydol",
+    "aliases": [],
     "types": [
       "ground",
       "psychic"
@@ -2920,6 +3264,7 @@ const pokemonData = [
   {
     "id": 345,
     "name": "Lileep",
+    "aliases": [],
     "types": [
       "rock",
       "grass"
@@ -2929,6 +3274,7 @@ const pokemonData = [
   {
     "id": 346,
     "name": "Cradily",
+    "aliases": [],
     "types": [
       "rock",
       "grass"
@@ -2938,6 +3284,7 @@ const pokemonData = [
   {
     "id": 347,
     "name": "Anorith",
+    "aliases": [],
     "types": [
       "rock",
       "bug"
@@ -2947,6 +3294,7 @@ const pokemonData = [
   {
     "id": 348,
     "name": "Armaldo",
+    "aliases": [],
     "types": [
       "rock",
       "bug"
@@ -2956,6 +3304,7 @@ const pokemonData = [
   {
     "id": 349,
     "name": "Feebas",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -2964,6 +3313,7 @@ const pokemonData = [
   {
     "id": 350,
     "name": "Milotic",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -2972,6 +3322,7 @@ const pokemonData = [
   {
     "id": 351,
     "name": "Castform",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2980,6 +3331,7 @@ const pokemonData = [
   {
     "id": 352,
     "name": "Kecleon",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -2988,6 +3340,7 @@ const pokemonData = [
   {
     "id": 353,
     "name": "Shuppet",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -2996,6 +3349,7 @@ const pokemonData = [
   {
     "id": 354,
     "name": "Banette",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -3004,6 +3358,7 @@ const pokemonData = [
   {
     "id": 355,
     "name": "Duskull",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -3012,6 +3367,7 @@ const pokemonData = [
   {
     "id": 356,
     "name": "Dusclops",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -3020,6 +3376,7 @@ const pokemonData = [
   {
     "id": 357,
     "name": "Tropius",
+    "aliases": [],
     "types": [
       "grass",
       "flying"
@@ -3029,6 +3386,7 @@ const pokemonData = [
   {
     "id": 358,
     "name": "Chimecho",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -3037,6 +3395,7 @@ const pokemonData = [
   {
     "id": 359,
     "name": "Absol",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -3045,6 +3404,7 @@ const pokemonData = [
   {
     "id": 360,
     "name": "Wynaut",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -3053,6 +3413,7 @@ const pokemonData = [
   {
     "id": 361,
     "name": "Snorunt",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -3061,6 +3422,7 @@ const pokemonData = [
   {
     "id": 362,
     "name": "Glalie",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -3069,6 +3431,7 @@ const pokemonData = [
   {
     "id": 363,
     "name": "Spheal",
+    "aliases": [],
     "types": [
       "ice",
       "water"
@@ -3078,6 +3441,7 @@ const pokemonData = [
   {
     "id": 364,
     "name": "Sealeo",
+    "aliases": [],
     "types": [
       "ice",
       "water"
@@ -3087,6 +3451,7 @@ const pokemonData = [
   {
     "id": 365,
     "name": "Walrein",
+    "aliases": [],
     "types": [
       "ice",
       "water"
@@ -3096,6 +3461,7 @@ const pokemonData = [
   {
     "id": 366,
     "name": "Clamperl",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3104,6 +3470,7 @@ const pokemonData = [
   {
     "id": 367,
     "name": "Huntail",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3112,6 +3479,7 @@ const pokemonData = [
   {
     "id": 368,
     "name": "Gorebyss",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3120,6 +3488,7 @@ const pokemonData = [
   {
     "id": 369,
     "name": "Relicanth",
+    "aliases": [],
     "types": [
       "water",
       "rock"
@@ -3129,6 +3498,7 @@ const pokemonData = [
   {
     "id": 370,
     "name": "Luvdisc",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3137,6 +3507,7 @@ const pokemonData = [
   {
     "id": 371,
     "name": "Bagon",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -3145,6 +3516,7 @@ const pokemonData = [
   {
     "id": 372,
     "name": "Shelgon",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -3153,6 +3525,7 @@ const pokemonData = [
   {
     "id": 373,
     "name": "Salamence",
+    "aliases": [],
     "types": [
       "dragon",
       "flying"
@@ -3162,6 +3535,7 @@ const pokemonData = [
   {
     "id": 374,
     "name": "Beldum",
+    "aliases": [],
     "types": [
       "steel",
       "psychic"
@@ -3171,6 +3545,7 @@ const pokemonData = [
   {
     "id": 375,
     "name": "Metang",
+    "aliases": [],
     "types": [
       "steel",
       "psychic"
@@ -3180,6 +3555,7 @@ const pokemonData = [
   {
     "id": 376,
     "name": "Metagross",
+    "aliases": [],
     "types": [
       "steel",
       "psychic"
@@ -3189,6 +3565,7 @@ const pokemonData = [
   {
     "id": 377,
     "name": "Regirock",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -3197,6 +3574,7 @@ const pokemonData = [
   {
     "id": 378,
     "name": "Regice",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -3205,6 +3583,7 @@ const pokemonData = [
   {
     "id": 379,
     "name": "Registeel",
+    "aliases": [],
     "types": [
       "steel"
     ],
@@ -3213,6 +3592,7 @@ const pokemonData = [
   {
     "id": 380,
     "name": "Latias",
+    "aliases": [],
     "types": [
       "dragon",
       "psychic"
@@ -3222,6 +3602,7 @@ const pokemonData = [
   {
     "id": 381,
     "name": "Latios",
+    "aliases": [],
     "types": [
       "dragon",
       "psychic"
@@ -3231,6 +3612,7 @@ const pokemonData = [
   {
     "id": 382,
     "name": "Kyogre",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3239,6 +3621,7 @@ const pokemonData = [
   {
     "id": 383,
     "name": "Groudon",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -3247,6 +3630,7 @@ const pokemonData = [
   {
     "id": 384,
     "name": "Rayquaza",
+    "aliases": [],
     "types": [
       "dragon",
       "flying"
@@ -3256,6 +3640,7 @@ const pokemonData = [
   {
     "id": 385,
     "name": "Jirachi",
+    "aliases": [],
     "types": [
       "steel",
       "psychic"
@@ -3264,7 +3649,8 @@ const pokemonData = [
   },
   {
     "id": 386,
-    "name": "Deoxys-normal",
+    "name": "Deoxys",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -3273,6 +3659,7 @@ const pokemonData = [
   {
     "id": 387,
     "name": "Turtwig",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -3281,6 +3668,7 @@ const pokemonData = [
   {
     "id": 388,
     "name": "Grotle",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -3289,6 +3677,7 @@ const pokemonData = [
   {
     "id": 389,
     "name": "Torterra",
+    "aliases": [],
     "types": [
       "grass",
       "ground"
@@ -3298,6 +3687,7 @@ const pokemonData = [
   {
     "id": 390,
     "name": "Chimchar",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -3306,6 +3696,7 @@ const pokemonData = [
   {
     "id": 391,
     "name": "Monferno",
+    "aliases": [],
     "types": [
       "fire",
       "fighting"
@@ -3315,6 +3706,7 @@ const pokemonData = [
   {
     "id": 392,
     "name": "Infernape",
+    "aliases": [],
     "types": [
       "fire",
       "fighting"
@@ -3324,6 +3716,7 @@ const pokemonData = [
   {
     "id": 393,
     "name": "Piplup",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3332,6 +3725,7 @@ const pokemonData = [
   {
     "id": 394,
     "name": "Prinplup",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3340,6 +3734,7 @@ const pokemonData = [
   {
     "id": 395,
     "name": "Empoleon",
+    "aliases": [],
     "types": [
       "water",
       "steel"
@@ -3349,6 +3744,7 @@ const pokemonData = [
   {
     "id": 396,
     "name": "Starly",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -3358,6 +3754,7 @@ const pokemonData = [
   {
     "id": 397,
     "name": "Staravia",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -3367,6 +3764,7 @@ const pokemonData = [
   {
     "id": 398,
     "name": "Staraptor",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -3376,6 +3774,7 @@ const pokemonData = [
   {
     "id": 399,
     "name": "Bidoof",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -3384,6 +3783,7 @@ const pokemonData = [
   {
     "id": 400,
     "name": "Bibarel",
+    "aliases": [],
     "types": [
       "normal",
       "water"
@@ -3393,6 +3793,7 @@ const pokemonData = [
   {
     "id": 401,
     "name": "Kricketot",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -3401,6 +3802,7 @@ const pokemonData = [
   {
     "id": 402,
     "name": "Kricketune",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -3409,6 +3811,7 @@ const pokemonData = [
   {
     "id": 403,
     "name": "Shinx",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -3417,6 +3820,7 @@ const pokemonData = [
   {
     "id": 404,
     "name": "Luxio",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -3425,6 +3829,7 @@ const pokemonData = [
   {
     "id": 405,
     "name": "Luxray",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -3433,6 +3838,7 @@ const pokemonData = [
   {
     "id": 406,
     "name": "Budew",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -3442,6 +3848,7 @@ const pokemonData = [
   {
     "id": 407,
     "name": "Roserade",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -3451,6 +3858,7 @@ const pokemonData = [
   {
     "id": 408,
     "name": "Cranidos",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -3459,6 +3867,7 @@ const pokemonData = [
   {
     "id": 409,
     "name": "Rampardos",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -3467,6 +3876,7 @@ const pokemonData = [
   {
     "id": 410,
     "name": "Shieldon",
+    "aliases": [],
     "types": [
       "rock",
       "steel"
@@ -3476,6 +3886,7 @@ const pokemonData = [
   {
     "id": 411,
     "name": "Bastiodon",
+    "aliases": [],
     "types": [
       "rock",
       "steel"
@@ -3485,6 +3896,7 @@ const pokemonData = [
   {
     "id": 412,
     "name": "Burmy",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -3492,7 +3904,8 @@ const pokemonData = [
   },
   {
     "id": 413,
-    "name": "Wormadam-plant",
+    "name": "Wormadam",
+    "aliases": [],
     "types": [
       "bug",
       "grass"
@@ -3502,6 +3915,7 @@ const pokemonData = [
   {
     "id": 414,
     "name": "Mothim",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -3511,6 +3925,7 @@ const pokemonData = [
   {
     "id": 415,
     "name": "Combee",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -3520,6 +3935,7 @@ const pokemonData = [
   {
     "id": 416,
     "name": "Vespiquen",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -3529,6 +3945,7 @@ const pokemonData = [
   {
     "id": 417,
     "name": "Pachirisu",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -3537,6 +3954,7 @@ const pokemonData = [
   {
     "id": 418,
     "name": "Buizel",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3545,6 +3963,7 @@ const pokemonData = [
   {
     "id": 419,
     "name": "Floatzel",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3553,6 +3972,7 @@ const pokemonData = [
   {
     "id": 420,
     "name": "Cherubi",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -3561,6 +3981,7 @@ const pokemonData = [
   {
     "id": 421,
     "name": "Cherrim",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -3569,6 +3990,7 @@ const pokemonData = [
   {
     "id": 422,
     "name": "Shellos",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3577,6 +3999,7 @@ const pokemonData = [
   {
     "id": 423,
     "name": "Gastrodon",
+    "aliases": [],
     "types": [
       "water",
       "ground"
@@ -3586,6 +4009,7 @@ const pokemonData = [
   {
     "id": 424,
     "name": "Ambipom",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -3594,6 +4018,7 @@ const pokemonData = [
   {
     "id": 425,
     "name": "Drifloon",
+    "aliases": [],
     "types": [
       "ghost",
       "flying"
@@ -3603,6 +4028,7 @@ const pokemonData = [
   {
     "id": 426,
     "name": "Drifblim",
+    "aliases": [],
     "types": [
       "ghost",
       "flying"
@@ -3612,6 +4038,7 @@ const pokemonData = [
   {
     "id": 427,
     "name": "Buneary",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -3620,6 +4047,7 @@ const pokemonData = [
   {
     "id": 428,
     "name": "Lopunny",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -3628,6 +4056,7 @@ const pokemonData = [
   {
     "id": 429,
     "name": "Mismagius",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -3636,6 +4065,7 @@ const pokemonData = [
   {
     "id": 430,
     "name": "Honchkrow",
+    "aliases": [],
     "types": [
       "dark",
       "flying"
@@ -3645,6 +4075,7 @@ const pokemonData = [
   {
     "id": 431,
     "name": "Glameow",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -3653,6 +4084,7 @@ const pokemonData = [
   {
     "id": 432,
     "name": "Purugly",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -3661,6 +4093,7 @@ const pokemonData = [
   {
     "id": 433,
     "name": "Chingling",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -3669,6 +4102,7 @@ const pokemonData = [
   {
     "id": 434,
     "name": "Stunky",
+    "aliases": [],
     "types": [
       "poison",
       "dark"
@@ -3678,6 +4112,7 @@ const pokemonData = [
   {
     "id": 435,
     "name": "Skuntank",
+    "aliases": [],
     "types": [
       "poison",
       "dark"
@@ -3687,6 +4122,7 @@ const pokemonData = [
   {
     "id": 436,
     "name": "Bronzor",
+    "aliases": [],
     "types": [
       "steel",
       "psychic"
@@ -3696,6 +4132,7 @@ const pokemonData = [
   {
     "id": 437,
     "name": "Bronzong",
+    "aliases": [],
     "types": [
       "steel",
       "psychic"
@@ -3705,6 +4142,7 @@ const pokemonData = [
   {
     "id": 438,
     "name": "Bonsly",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -3712,7 +4150,8 @@ const pokemonData = [
   },
   {
     "id": 439,
-    "name": "Mime-jr",
+    "name": "Mime Jr.",
+    "aliases": [],
     "types": [
       "psychic",
       "fairy"
@@ -3722,6 +4161,7 @@ const pokemonData = [
   {
     "id": 440,
     "name": "Happiny",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -3730,6 +4170,7 @@ const pokemonData = [
   {
     "id": 441,
     "name": "Chatot",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -3739,6 +4180,7 @@ const pokemonData = [
   {
     "id": 442,
     "name": "Spiritomb",
+    "aliases": [],
     "types": [
       "ghost",
       "dark"
@@ -3748,6 +4190,7 @@ const pokemonData = [
   {
     "id": 443,
     "name": "Gible",
+    "aliases": [],
     "types": [
       "dragon",
       "ground"
@@ -3757,6 +4200,7 @@ const pokemonData = [
   {
     "id": 444,
     "name": "Gabite",
+    "aliases": [],
     "types": [
       "dragon",
       "ground"
@@ -3766,6 +4210,7 @@ const pokemonData = [
   {
     "id": 445,
     "name": "Garchomp",
+    "aliases": [],
     "types": [
       "dragon",
       "ground"
@@ -3775,6 +4220,7 @@ const pokemonData = [
   {
     "id": 446,
     "name": "Munchlax",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -3783,6 +4229,7 @@ const pokemonData = [
   {
     "id": 447,
     "name": "Riolu",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -3791,6 +4238,7 @@ const pokemonData = [
   {
     "id": 448,
     "name": "Lucario",
+    "aliases": [],
     "types": [
       "fighting",
       "steel"
@@ -3800,6 +4248,7 @@ const pokemonData = [
   {
     "id": 449,
     "name": "Hippopotas",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -3808,6 +4257,7 @@ const pokemonData = [
   {
     "id": 450,
     "name": "Hippowdon",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -3816,6 +4266,7 @@ const pokemonData = [
   {
     "id": 451,
     "name": "Skorupi",
+    "aliases": [],
     "types": [
       "poison",
       "bug"
@@ -3825,6 +4276,7 @@ const pokemonData = [
   {
     "id": 452,
     "name": "Drapion",
+    "aliases": [],
     "types": [
       "poison",
       "dark"
@@ -3834,6 +4286,7 @@ const pokemonData = [
   {
     "id": 453,
     "name": "Croagunk",
+    "aliases": [],
     "types": [
       "poison",
       "fighting"
@@ -3843,6 +4296,7 @@ const pokemonData = [
   {
     "id": 454,
     "name": "Toxicroak",
+    "aliases": [],
     "types": [
       "poison",
       "fighting"
@@ -3852,6 +4306,7 @@ const pokemonData = [
   {
     "id": 455,
     "name": "Carnivine",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -3860,6 +4315,7 @@ const pokemonData = [
   {
     "id": 456,
     "name": "Finneon",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3868,6 +4324,7 @@ const pokemonData = [
   {
     "id": 457,
     "name": "Lumineon",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -3876,6 +4333,7 @@ const pokemonData = [
   {
     "id": 458,
     "name": "Mantyke",
+    "aliases": [],
     "types": [
       "water",
       "flying"
@@ -3885,6 +4343,7 @@ const pokemonData = [
   {
     "id": 459,
     "name": "Snover",
+    "aliases": [],
     "types": [
       "grass",
       "ice"
@@ -3894,6 +4353,7 @@ const pokemonData = [
   {
     "id": 460,
     "name": "Abomasnow",
+    "aliases": [],
     "types": [
       "grass",
       "ice"
@@ -3903,6 +4363,7 @@ const pokemonData = [
   {
     "id": 461,
     "name": "Weavile",
+    "aliases": [],
     "types": [
       "dark",
       "ice"
@@ -3912,6 +4373,7 @@ const pokemonData = [
   {
     "id": 462,
     "name": "Magnezone",
+    "aliases": [],
     "types": [
       "electric",
       "steel"
@@ -3921,6 +4383,7 @@ const pokemonData = [
   {
     "id": 463,
     "name": "Lickilicky",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -3929,6 +4392,7 @@ const pokemonData = [
   {
     "id": 464,
     "name": "Rhyperior",
+    "aliases": [],
     "types": [
       "ground",
       "rock"
@@ -3938,6 +4402,7 @@ const pokemonData = [
   {
     "id": 465,
     "name": "Tangrowth",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -3946,6 +4411,7 @@ const pokemonData = [
   {
     "id": 466,
     "name": "Electivire",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -3954,6 +4420,7 @@ const pokemonData = [
   {
     "id": 467,
     "name": "Magmortar",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -3962,6 +4429,7 @@ const pokemonData = [
   {
     "id": 468,
     "name": "Togekiss",
+    "aliases": [],
     "types": [
       "fairy",
       "flying"
@@ -3971,6 +4439,7 @@ const pokemonData = [
   {
     "id": 469,
     "name": "Yanmega",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -3980,6 +4449,7 @@ const pokemonData = [
   {
     "id": 470,
     "name": "Leafeon",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -3988,6 +4458,7 @@ const pokemonData = [
   {
     "id": 471,
     "name": "Glaceon",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -3996,6 +4467,7 @@ const pokemonData = [
   {
     "id": 472,
     "name": "Gliscor",
+    "aliases": [],
     "types": [
       "ground",
       "flying"
@@ -4005,6 +4477,7 @@ const pokemonData = [
   {
     "id": 473,
     "name": "Mamoswine",
+    "aliases": [],
     "types": [
       "ice",
       "ground"
@@ -4013,7 +4486,8 @@ const pokemonData = [
   },
   {
     "id": 474,
-    "name": "Porygon-z",
+    "name": "Porygon-Z",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -4022,6 +4496,7 @@ const pokemonData = [
   {
     "id": 475,
     "name": "Gallade",
+    "aliases": [],
     "types": [
       "psychic",
       "fighting"
@@ -4031,6 +4506,7 @@ const pokemonData = [
   {
     "id": 476,
     "name": "Probopass",
+    "aliases": [],
     "types": [
       "rock",
       "steel"
@@ -4040,6 +4516,7 @@ const pokemonData = [
   {
     "id": 477,
     "name": "Dusknoir",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -4048,6 +4525,7 @@ const pokemonData = [
   {
     "id": 478,
     "name": "Froslass",
+    "aliases": [],
     "types": [
       "ice",
       "ghost"
@@ -4057,6 +4535,7 @@ const pokemonData = [
   {
     "id": 479,
     "name": "Rotom",
+    "aliases": [],
     "types": [
       "electric",
       "ghost"
@@ -4066,6 +4545,7 @@ const pokemonData = [
   {
     "id": 480,
     "name": "Uxie",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4074,6 +4554,7 @@ const pokemonData = [
   {
     "id": 481,
     "name": "Mesprit",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4082,6 +4563,7 @@ const pokemonData = [
   {
     "id": 482,
     "name": "Azelf",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4090,6 +4572,7 @@ const pokemonData = [
   {
     "id": 483,
     "name": "Dialga",
+    "aliases": [],
     "types": [
       "steel",
       "dragon"
@@ -4099,6 +4582,7 @@ const pokemonData = [
   {
     "id": 484,
     "name": "Palkia",
+    "aliases": [],
     "types": [
       "water",
       "dragon"
@@ -4108,6 +4592,7 @@ const pokemonData = [
   {
     "id": 485,
     "name": "Heatran",
+    "aliases": [],
     "types": [
       "fire",
       "steel"
@@ -4117,6 +4602,7 @@ const pokemonData = [
   {
     "id": 486,
     "name": "Regigigas",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -4124,7 +4610,8 @@ const pokemonData = [
   },
   {
     "id": 487,
-    "name": "Giratina-altered",
+    "name": "Giratina",
+    "aliases": [],
     "types": [
       "ghost",
       "dragon"
@@ -4134,6 +4621,7 @@ const pokemonData = [
   {
     "id": 488,
     "name": "Cresselia",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4142,6 +4630,7 @@ const pokemonData = [
   {
     "id": 489,
     "name": "Phione",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -4150,6 +4639,7 @@ const pokemonData = [
   {
     "id": 490,
     "name": "Manaphy",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -4158,6 +4648,7 @@ const pokemonData = [
   {
     "id": 491,
     "name": "Darkrai",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -4165,7 +4656,8 @@ const pokemonData = [
   },
   {
     "id": 492,
-    "name": "Shaymin-land",
+    "name": "Shaymin",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -4174,6 +4666,7 @@ const pokemonData = [
   {
     "id": 493,
     "name": "Arceus",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -4182,6 +4675,7 @@ const pokemonData = [
   {
     "id": 494,
     "name": "Victini",
+    "aliases": [],
     "types": [
       "psychic",
       "fire"
@@ -4191,6 +4685,7 @@ const pokemonData = [
   {
     "id": 495,
     "name": "Snivy",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -4199,6 +4694,7 @@ const pokemonData = [
   {
     "id": 496,
     "name": "Servine",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -4207,6 +4703,7 @@ const pokemonData = [
   {
     "id": 497,
     "name": "Serperior",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -4215,6 +4712,7 @@ const pokemonData = [
   {
     "id": 498,
     "name": "Tepig",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -4223,6 +4721,7 @@ const pokemonData = [
   {
     "id": 499,
     "name": "Pignite",
+    "aliases": [],
     "types": [
       "fire",
       "fighting"
@@ -4232,6 +4731,7 @@ const pokemonData = [
   {
     "id": 500,
     "name": "Emboar",
+    "aliases": [],
     "types": [
       "fire",
       "fighting"
@@ -4241,6 +4741,7 @@ const pokemonData = [
   {
     "id": 501,
     "name": "Oshawott",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -4249,6 +4750,7 @@ const pokemonData = [
   {
     "id": 502,
     "name": "Dewott",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -4257,6 +4759,7 @@ const pokemonData = [
   {
     "id": 503,
     "name": "Samurott",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -4265,6 +4768,7 @@ const pokemonData = [
   {
     "id": 504,
     "name": "Patrat",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -4273,6 +4777,7 @@ const pokemonData = [
   {
     "id": 505,
     "name": "Watchog",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -4281,6 +4786,7 @@ const pokemonData = [
   {
     "id": 506,
     "name": "Lillipup",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -4289,6 +4795,7 @@ const pokemonData = [
   {
     "id": 507,
     "name": "Herdier",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -4297,6 +4804,7 @@ const pokemonData = [
   {
     "id": 508,
     "name": "Stoutland",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -4305,6 +4813,7 @@ const pokemonData = [
   {
     "id": 509,
     "name": "Purrloin",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -4313,6 +4822,7 @@ const pokemonData = [
   {
     "id": 510,
     "name": "Liepard",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -4321,6 +4831,7 @@ const pokemonData = [
   {
     "id": 511,
     "name": "Pansage",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -4329,6 +4840,7 @@ const pokemonData = [
   {
     "id": 512,
     "name": "Simisage",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -4337,6 +4849,7 @@ const pokemonData = [
   {
     "id": 513,
     "name": "Pansear",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -4345,6 +4858,7 @@ const pokemonData = [
   {
     "id": 514,
     "name": "Simisear",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -4353,6 +4867,7 @@ const pokemonData = [
   {
     "id": 515,
     "name": "Panpour",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -4361,6 +4876,7 @@ const pokemonData = [
   {
     "id": 516,
     "name": "Simipour",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -4369,6 +4885,7 @@ const pokemonData = [
   {
     "id": 517,
     "name": "Munna",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4377,6 +4894,7 @@ const pokemonData = [
   {
     "id": 518,
     "name": "Musharna",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4385,6 +4903,7 @@ const pokemonData = [
   {
     "id": 519,
     "name": "Pidove",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -4394,6 +4913,7 @@ const pokemonData = [
   {
     "id": 520,
     "name": "Tranquill",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -4403,6 +4923,7 @@ const pokemonData = [
   {
     "id": 521,
     "name": "Unfezant",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -4412,6 +4933,7 @@ const pokemonData = [
   {
     "id": 522,
     "name": "Blitzle",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -4420,6 +4942,7 @@ const pokemonData = [
   {
     "id": 523,
     "name": "Zebstrika",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -4428,6 +4951,7 @@ const pokemonData = [
   {
     "id": 524,
     "name": "Roggenrola",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -4436,6 +4960,7 @@ const pokemonData = [
   {
     "id": 525,
     "name": "Boldore",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -4444,6 +4969,7 @@ const pokemonData = [
   {
     "id": 526,
     "name": "Gigalith",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -4452,6 +4978,7 @@ const pokemonData = [
   {
     "id": 527,
     "name": "Woobat",
+    "aliases": [],
     "types": [
       "psychic",
       "flying"
@@ -4461,6 +4988,7 @@ const pokemonData = [
   {
     "id": 528,
     "name": "Swoobat",
+    "aliases": [],
     "types": [
       "psychic",
       "flying"
@@ -4470,6 +4998,7 @@ const pokemonData = [
   {
     "id": 529,
     "name": "Drilbur",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -4478,6 +5007,7 @@ const pokemonData = [
   {
     "id": 530,
     "name": "Excadrill",
+    "aliases": [],
     "types": [
       "ground",
       "steel"
@@ -4487,6 +5017,7 @@ const pokemonData = [
   {
     "id": 531,
     "name": "Audino",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -4495,6 +5026,7 @@ const pokemonData = [
   {
     "id": 532,
     "name": "Timburr",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -4503,6 +5035,7 @@ const pokemonData = [
   {
     "id": 533,
     "name": "Gurdurr",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -4511,6 +5044,7 @@ const pokemonData = [
   {
     "id": 534,
     "name": "Conkeldurr",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -4519,6 +5053,7 @@ const pokemonData = [
   {
     "id": 535,
     "name": "Tympole",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -4527,6 +5062,7 @@ const pokemonData = [
   {
     "id": 536,
     "name": "Palpitoad",
+    "aliases": [],
     "types": [
       "water",
       "ground"
@@ -4536,6 +5072,7 @@ const pokemonData = [
   {
     "id": 537,
     "name": "Seismitoad",
+    "aliases": [],
     "types": [
       "water",
       "ground"
@@ -4545,6 +5082,7 @@ const pokemonData = [
   {
     "id": 538,
     "name": "Throh",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -4553,6 +5091,7 @@ const pokemonData = [
   {
     "id": 539,
     "name": "Sawk",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -4561,6 +5100,7 @@ const pokemonData = [
   {
     "id": 540,
     "name": "Sewaddle",
+    "aliases": [],
     "types": [
       "bug",
       "grass"
@@ -4570,6 +5110,7 @@ const pokemonData = [
   {
     "id": 541,
     "name": "Swadloon",
+    "aliases": [],
     "types": [
       "bug",
       "grass"
@@ -4579,6 +5120,7 @@ const pokemonData = [
   {
     "id": 542,
     "name": "Leavanny",
+    "aliases": [],
     "types": [
       "bug",
       "grass"
@@ -4588,6 +5130,7 @@ const pokemonData = [
   {
     "id": 543,
     "name": "Venipede",
+    "aliases": [],
     "types": [
       "bug",
       "poison"
@@ -4597,6 +5140,7 @@ const pokemonData = [
   {
     "id": 544,
     "name": "Whirlipede",
+    "aliases": [],
     "types": [
       "bug",
       "poison"
@@ -4606,6 +5150,7 @@ const pokemonData = [
   {
     "id": 545,
     "name": "Scolipede",
+    "aliases": [],
     "types": [
       "bug",
       "poison"
@@ -4615,6 +5160,7 @@ const pokemonData = [
   {
     "id": 546,
     "name": "Cottonee",
+    "aliases": [],
     "types": [
       "grass",
       "fairy"
@@ -4624,6 +5170,7 @@ const pokemonData = [
   {
     "id": 547,
     "name": "Whimsicott",
+    "aliases": [],
     "types": [
       "grass",
       "fairy"
@@ -4633,6 +5180,7 @@ const pokemonData = [
   {
     "id": 548,
     "name": "Petilil",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -4641,6 +5189,7 @@ const pokemonData = [
   {
     "id": 549,
     "name": "Lilligant",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -4648,7 +5197,8 @@ const pokemonData = [
   },
   {
     "id": 550,
-    "name": "Basculin-red-striped",
+    "name": "Basculin",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -4657,6 +5207,7 @@ const pokemonData = [
   {
     "id": 551,
     "name": "Sandile",
+    "aliases": [],
     "types": [
       "ground",
       "dark"
@@ -4666,6 +5217,7 @@ const pokemonData = [
   {
     "id": 552,
     "name": "Krokorok",
+    "aliases": [],
     "types": [
       "ground",
       "dark"
@@ -4675,6 +5227,7 @@ const pokemonData = [
   {
     "id": 553,
     "name": "Krookodile",
+    "aliases": [],
     "types": [
       "ground",
       "dark"
@@ -4684,6 +5237,7 @@ const pokemonData = [
   {
     "id": 554,
     "name": "Darumaka",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -4691,7 +5245,8 @@ const pokemonData = [
   },
   {
     "id": 555,
-    "name": "Darmanitan-standard",
+    "name": "Darmanitan",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -4700,6 +5255,7 @@ const pokemonData = [
   {
     "id": 556,
     "name": "Maractus",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -4708,6 +5264,7 @@ const pokemonData = [
   {
     "id": 557,
     "name": "Dwebble",
+    "aliases": [],
     "types": [
       "bug",
       "rock"
@@ -4717,6 +5274,7 @@ const pokemonData = [
   {
     "id": 558,
     "name": "Crustle",
+    "aliases": [],
     "types": [
       "bug",
       "rock"
@@ -4726,6 +5284,7 @@ const pokemonData = [
   {
     "id": 559,
     "name": "Scraggy",
+    "aliases": [],
     "types": [
       "dark",
       "fighting"
@@ -4735,6 +5294,7 @@ const pokemonData = [
   {
     "id": 560,
     "name": "Scrafty",
+    "aliases": [],
     "types": [
       "dark",
       "fighting"
@@ -4744,6 +5304,7 @@ const pokemonData = [
   {
     "id": 561,
     "name": "Sigilyph",
+    "aliases": [],
     "types": [
       "psychic",
       "flying"
@@ -4753,6 +5314,7 @@ const pokemonData = [
   {
     "id": 562,
     "name": "Yamask",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -4761,6 +5323,7 @@ const pokemonData = [
   {
     "id": 563,
     "name": "Cofagrigus",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -4769,6 +5332,7 @@ const pokemonData = [
   {
     "id": 564,
     "name": "Tirtouga",
+    "aliases": [],
     "types": [
       "water",
       "rock"
@@ -4778,6 +5342,7 @@ const pokemonData = [
   {
     "id": 565,
     "name": "Carracosta",
+    "aliases": [],
     "types": [
       "water",
       "rock"
@@ -4787,6 +5352,7 @@ const pokemonData = [
   {
     "id": 566,
     "name": "Archen",
+    "aliases": [],
     "types": [
       "rock",
       "flying"
@@ -4796,6 +5362,7 @@ const pokemonData = [
   {
     "id": 567,
     "name": "Archeops",
+    "aliases": [],
     "types": [
       "rock",
       "flying"
@@ -4805,6 +5372,7 @@ const pokemonData = [
   {
     "id": 568,
     "name": "Trubbish",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -4813,6 +5381,7 @@ const pokemonData = [
   {
     "id": 569,
     "name": "Garbodor",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -4821,6 +5390,7 @@ const pokemonData = [
   {
     "id": 570,
     "name": "Zorua",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -4829,6 +5399,7 @@ const pokemonData = [
   {
     "id": 571,
     "name": "Zoroark",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -4837,6 +5408,7 @@ const pokemonData = [
   {
     "id": 572,
     "name": "Minccino",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -4845,6 +5417,7 @@ const pokemonData = [
   {
     "id": 573,
     "name": "Cinccino",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -4853,6 +5426,7 @@ const pokemonData = [
   {
     "id": 574,
     "name": "Gothita",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4861,6 +5435,7 @@ const pokemonData = [
   {
     "id": 575,
     "name": "Gothorita",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4869,6 +5444,7 @@ const pokemonData = [
   {
     "id": 576,
     "name": "Gothitelle",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4877,6 +5453,7 @@ const pokemonData = [
   {
     "id": 577,
     "name": "Solosis",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4885,6 +5462,7 @@ const pokemonData = [
   {
     "id": 578,
     "name": "Duosion",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4893,6 +5471,7 @@ const pokemonData = [
   {
     "id": 579,
     "name": "Reuniclus",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -4901,6 +5480,7 @@ const pokemonData = [
   {
     "id": 580,
     "name": "Ducklett",
+    "aliases": [],
     "types": [
       "water",
       "flying"
@@ -4910,6 +5490,7 @@ const pokemonData = [
   {
     "id": 581,
     "name": "Swanna",
+    "aliases": [],
     "types": [
       "water",
       "flying"
@@ -4919,6 +5500,7 @@ const pokemonData = [
   {
     "id": 582,
     "name": "Vanillite",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -4927,6 +5509,7 @@ const pokemonData = [
   {
     "id": 583,
     "name": "Vanillish",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -4935,6 +5518,7 @@ const pokemonData = [
   {
     "id": 584,
     "name": "Vanilluxe",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -4943,6 +5527,7 @@ const pokemonData = [
   {
     "id": 585,
     "name": "Deerling",
+    "aliases": [],
     "types": [
       "normal",
       "grass"
@@ -4952,6 +5537,7 @@ const pokemonData = [
   {
     "id": 586,
     "name": "Sawsbuck",
+    "aliases": [],
     "types": [
       "normal",
       "grass"
@@ -4961,6 +5547,7 @@ const pokemonData = [
   {
     "id": 587,
     "name": "Emolga",
+    "aliases": [],
     "types": [
       "electric",
       "flying"
@@ -4970,6 +5557,7 @@ const pokemonData = [
   {
     "id": 588,
     "name": "Karrablast",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -4978,6 +5566,7 @@ const pokemonData = [
   {
     "id": 589,
     "name": "Escavalier",
+    "aliases": [],
     "types": [
       "bug",
       "steel"
@@ -4987,6 +5576,7 @@ const pokemonData = [
   {
     "id": 590,
     "name": "Foongus",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -4996,6 +5586,7 @@ const pokemonData = [
   {
     "id": 591,
     "name": "Amoonguss",
+    "aliases": [],
     "types": [
       "grass",
       "poison"
@@ -5004,7 +5595,8 @@ const pokemonData = [
   },
   {
     "id": 592,
-    "name": "Frillish-male",
+    "name": "Frillish",
+    "aliases": [],
     "types": [
       "water",
       "ghost"
@@ -5013,7 +5605,8 @@ const pokemonData = [
   },
   {
     "id": 593,
-    "name": "Jellicent-male",
+    "name": "Jellicent",
+    "aliases": [],
     "types": [
       "water",
       "ghost"
@@ -5023,6 +5616,7 @@ const pokemonData = [
   {
     "id": 594,
     "name": "Alomomola",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -5031,6 +5625,7 @@ const pokemonData = [
   {
     "id": 595,
     "name": "Joltik",
+    "aliases": [],
     "types": [
       "bug",
       "electric"
@@ -5040,6 +5635,7 @@ const pokemonData = [
   {
     "id": 596,
     "name": "Galvantula",
+    "aliases": [],
     "types": [
       "bug",
       "electric"
@@ -5049,6 +5645,7 @@ const pokemonData = [
   {
     "id": 597,
     "name": "Ferroseed",
+    "aliases": [],
     "types": [
       "grass",
       "steel"
@@ -5058,6 +5655,7 @@ const pokemonData = [
   {
     "id": 598,
     "name": "Ferrothorn",
+    "aliases": [],
     "types": [
       "grass",
       "steel"
@@ -5067,6 +5665,7 @@ const pokemonData = [
   {
     "id": 599,
     "name": "Klink",
+    "aliases": [],
     "types": [
       "steel"
     ],
@@ -5075,6 +5674,7 @@ const pokemonData = [
   {
     "id": 600,
     "name": "Klang",
+    "aliases": [],
     "types": [
       "steel"
     ],
@@ -5083,6 +5683,7 @@ const pokemonData = [
   {
     "id": 601,
     "name": "Klinklang",
+    "aliases": [],
     "types": [
       "steel"
     ],
@@ -5091,6 +5692,7 @@ const pokemonData = [
   {
     "id": 602,
     "name": "Tynamo",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -5099,6 +5701,7 @@ const pokemonData = [
   {
     "id": 603,
     "name": "Eelektrik",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -5107,6 +5710,7 @@ const pokemonData = [
   {
     "id": 604,
     "name": "Eelektross",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -5115,6 +5719,7 @@ const pokemonData = [
   {
     "id": 605,
     "name": "Elgyem",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -5123,6 +5728,7 @@ const pokemonData = [
   {
     "id": 606,
     "name": "Beheeyem",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -5131,6 +5737,7 @@ const pokemonData = [
   {
     "id": 607,
     "name": "Litwick",
+    "aliases": [],
     "types": [
       "ghost",
       "fire"
@@ -5140,6 +5747,7 @@ const pokemonData = [
   {
     "id": 608,
     "name": "Lampent",
+    "aliases": [],
     "types": [
       "ghost",
       "fire"
@@ -5149,6 +5757,7 @@ const pokemonData = [
   {
     "id": 609,
     "name": "Chandelure",
+    "aliases": [],
     "types": [
       "ghost",
       "fire"
@@ -5158,6 +5767,7 @@ const pokemonData = [
   {
     "id": 610,
     "name": "Axew",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -5166,6 +5776,7 @@ const pokemonData = [
   {
     "id": 611,
     "name": "Fraxure",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -5174,6 +5785,7 @@ const pokemonData = [
   {
     "id": 612,
     "name": "Haxorus",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -5182,6 +5794,7 @@ const pokemonData = [
   {
     "id": 613,
     "name": "Cubchoo",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -5190,6 +5803,7 @@ const pokemonData = [
   {
     "id": 614,
     "name": "Beartic",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -5198,6 +5812,7 @@ const pokemonData = [
   {
     "id": 615,
     "name": "Cryogonal",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -5206,6 +5821,7 @@ const pokemonData = [
   {
     "id": 616,
     "name": "Shelmet",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -5214,6 +5830,7 @@ const pokemonData = [
   {
     "id": 617,
     "name": "Accelgor",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -5222,6 +5839,7 @@ const pokemonData = [
   {
     "id": 618,
     "name": "Stunfisk",
+    "aliases": [],
     "types": [
       "ground",
       "electric"
@@ -5231,6 +5849,7 @@ const pokemonData = [
   {
     "id": 619,
     "name": "Mienfoo",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -5239,6 +5858,7 @@ const pokemonData = [
   {
     "id": 620,
     "name": "Mienshao",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -5247,6 +5867,7 @@ const pokemonData = [
   {
     "id": 621,
     "name": "Druddigon",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -5255,6 +5876,7 @@ const pokemonData = [
   {
     "id": 622,
     "name": "Golett",
+    "aliases": [],
     "types": [
       "ground",
       "ghost"
@@ -5264,6 +5886,7 @@ const pokemonData = [
   {
     "id": 623,
     "name": "Golurk",
+    "aliases": [],
     "types": [
       "ground",
       "ghost"
@@ -5273,6 +5896,7 @@ const pokemonData = [
   {
     "id": 624,
     "name": "Pawniard",
+    "aliases": [],
     "types": [
       "dark",
       "steel"
@@ -5282,6 +5906,7 @@ const pokemonData = [
   {
     "id": 625,
     "name": "Bisharp",
+    "aliases": [],
     "types": [
       "dark",
       "steel"
@@ -5291,6 +5916,7 @@ const pokemonData = [
   {
     "id": 626,
     "name": "Bouffalant",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -5299,6 +5925,7 @@ const pokemonData = [
   {
     "id": 627,
     "name": "Rufflet",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -5308,6 +5935,7 @@ const pokemonData = [
   {
     "id": 628,
     "name": "Braviary",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -5317,6 +5945,7 @@ const pokemonData = [
   {
     "id": 629,
     "name": "Vullaby",
+    "aliases": [],
     "types": [
       "dark",
       "flying"
@@ -5326,6 +5955,7 @@ const pokemonData = [
   {
     "id": 630,
     "name": "Mandibuzz",
+    "aliases": [],
     "types": [
       "dark",
       "flying"
@@ -5335,6 +5965,7 @@ const pokemonData = [
   {
     "id": 631,
     "name": "Heatmor",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -5343,6 +5974,7 @@ const pokemonData = [
   {
     "id": 632,
     "name": "Durant",
+    "aliases": [],
     "types": [
       "bug",
       "steel"
@@ -5352,6 +5984,7 @@ const pokemonData = [
   {
     "id": 633,
     "name": "Deino",
+    "aliases": [],
     "types": [
       "dark",
       "dragon"
@@ -5361,6 +5994,7 @@ const pokemonData = [
   {
     "id": 634,
     "name": "Zweilous",
+    "aliases": [],
     "types": [
       "dark",
       "dragon"
@@ -5370,6 +6004,7 @@ const pokemonData = [
   {
     "id": 635,
     "name": "Hydreigon",
+    "aliases": [],
     "types": [
       "dark",
       "dragon"
@@ -5379,6 +6014,7 @@ const pokemonData = [
   {
     "id": 636,
     "name": "Larvesta",
+    "aliases": [],
     "types": [
       "bug",
       "fire"
@@ -5388,6 +6024,7 @@ const pokemonData = [
   {
     "id": 637,
     "name": "Volcarona",
+    "aliases": [],
     "types": [
       "bug",
       "fire"
@@ -5397,6 +6034,7 @@ const pokemonData = [
   {
     "id": 638,
     "name": "Cobalion",
+    "aliases": [],
     "types": [
       "steel",
       "fighting"
@@ -5406,6 +6044,7 @@ const pokemonData = [
   {
     "id": 639,
     "name": "Terrakion",
+    "aliases": [],
     "types": [
       "rock",
       "fighting"
@@ -5415,6 +6054,7 @@ const pokemonData = [
   {
     "id": 640,
     "name": "Virizion",
+    "aliases": [],
     "types": [
       "grass",
       "fighting"
@@ -5423,7 +6063,8 @@ const pokemonData = [
   },
   {
     "id": 641,
-    "name": "Tornadus-incarnate",
+    "name": "Tornadus",
+    "aliases": [],
     "types": [
       "flying"
     ],
@@ -5431,7 +6072,8 @@ const pokemonData = [
   },
   {
     "id": 642,
-    "name": "Thundurus-incarnate",
+    "name": "Thundurus",
+    "aliases": [],
     "types": [
       "electric",
       "flying"
@@ -5441,6 +6083,7 @@ const pokemonData = [
   {
     "id": 643,
     "name": "Reshiram",
+    "aliases": [],
     "types": [
       "dragon",
       "fire"
@@ -5450,6 +6093,7 @@ const pokemonData = [
   {
     "id": 644,
     "name": "Zekrom",
+    "aliases": [],
     "types": [
       "dragon",
       "electric"
@@ -5458,7 +6102,8 @@ const pokemonData = [
   },
   {
     "id": 645,
-    "name": "Landorus-incarnate",
+    "name": "Landorus",
+    "aliases": [],
     "types": [
       "ground",
       "flying"
@@ -5468,6 +6113,7 @@ const pokemonData = [
   {
     "id": 646,
     "name": "Kyurem",
+    "aliases": [],
     "types": [
       "dragon",
       "ice"
@@ -5476,7 +6122,8 @@ const pokemonData = [
   },
   {
     "id": 647,
-    "name": "Keldeo-ordinary",
+    "name": "Keldeo",
+    "aliases": [],
     "types": [
       "water",
       "fighting"
@@ -5485,7 +6132,8 @@ const pokemonData = [
   },
   {
     "id": 648,
-    "name": "Meloetta-aria",
+    "name": "Meloetta",
+    "aliases": [],
     "types": [
       "normal",
       "psychic"
@@ -5495,6 +6143,7 @@ const pokemonData = [
   {
     "id": 649,
     "name": "Genesect",
+    "aliases": [],
     "types": [
       "bug",
       "steel"
@@ -5504,6 +6153,7 @@ const pokemonData = [
   {
     "id": 650,
     "name": "Chespin",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -5512,6 +6162,7 @@ const pokemonData = [
   {
     "id": 651,
     "name": "Quilladin",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -5520,6 +6171,7 @@ const pokemonData = [
   {
     "id": 652,
     "name": "Chesnaught",
+    "aliases": [],
     "types": [
       "grass",
       "fighting"
@@ -5529,6 +6181,7 @@ const pokemonData = [
   {
     "id": 653,
     "name": "Fennekin",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -5537,6 +6190,7 @@ const pokemonData = [
   {
     "id": 654,
     "name": "Braixen",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -5545,6 +6199,7 @@ const pokemonData = [
   {
     "id": 655,
     "name": "Delphox",
+    "aliases": [],
     "types": [
       "fire",
       "psychic"
@@ -5554,6 +6209,7 @@ const pokemonData = [
   {
     "id": 656,
     "name": "Froakie",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -5562,6 +6218,7 @@ const pokemonData = [
   {
     "id": 657,
     "name": "Frogadier",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -5570,6 +6227,7 @@ const pokemonData = [
   {
     "id": 658,
     "name": "Greninja",
+    "aliases": [],
     "types": [
       "water",
       "dark"
@@ -5579,6 +6237,7 @@ const pokemonData = [
   {
     "id": 659,
     "name": "Bunnelby",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -5587,6 +6246,7 @@ const pokemonData = [
   {
     "id": 660,
     "name": "Diggersby",
+    "aliases": [],
     "types": [
       "normal",
       "ground"
@@ -5596,6 +6256,7 @@ const pokemonData = [
   {
     "id": 661,
     "name": "Fletchling",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -5605,6 +6266,7 @@ const pokemonData = [
   {
     "id": 662,
     "name": "Fletchinder",
+    "aliases": [],
     "types": [
       "fire",
       "flying"
@@ -5614,6 +6276,7 @@ const pokemonData = [
   {
     "id": 663,
     "name": "Talonflame",
+    "aliases": [],
     "types": [
       "fire",
       "flying"
@@ -5623,6 +6286,7 @@ const pokemonData = [
   {
     "id": 664,
     "name": "Scatterbug",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -5631,6 +6295,7 @@ const pokemonData = [
   {
     "id": 665,
     "name": "Spewpa",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -5639,6 +6304,7 @@ const pokemonData = [
   {
     "id": 666,
     "name": "Vivillon",
+    "aliases": [],
     "types": [
       "bug",
       "flying"
@@ -5648,6 +6314,7 @@ const pokemonData = [
   {
     "id": 667,
     "name": "Litleo",
+    "aliases": [],
     "types": [
       "fire",
       "normal"
@@ -5656,7 +6323,8 @@ const pokemonData = [
   },
   {
     "id": 668,
-    "name": "Pyroar-male",
+    "name": "Pyroar",
+    "aliases": [],
     "types": [
       "fire",
       "normal"
@@ -5665,7 +6333,8 @@ const pokemonData = [
   },
   {
     "id": 669,
-    "name": "Flabebe",
+    "name": "Flabébé",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -5674,6 +6343,7 @@ const pokemonData = [
   {
     "id": 670,
     "name": "Floette",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -5682,6 +6352,7 @@ const pokemonData = [
   {
     "id": 671,
     "name": "Florges",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -5690,6 +6361,7 @@ const pokemonData = [
   {
     "id": 672,
     "name": "Skiddo",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -5698,6 +6370,7 @@ const pokemonData = [
   {
     "id": 673,
     "name": "Gogoat",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -5706,6 +6379,7 @@ const pokemonData = [
   {
     "id": 674,
     "name": "Pancham",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -5714,6 +6388,7 @@ const pokemonData = [
   {
     "id": 675,
     "name": "Pangoro",
+    "aliases": [],
     "types": [
       "fighting",
       "dark"
@@ -5723,6 +6398,7 @@ const pokemonData = [
   {
     "id": 676,
     "name": "Furfrou",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -5731,6 +6407,7 @@ const pokemonData = [
   {
     "id": 677,
     "name": "Espurr",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -5738,7 +6415,8 @@ const pokemonData = [
   },
   {
     "id": 678,
-    "name": "Meowstic-male",
+    "name": "Meowstic",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -5747,6 +6425,7 @@ const pokemonData = [
   {
     "id": 679,
     "name": "Honedge",
+    "aliases": [],
     "types": [
       "steel",
       "ghost"
@@ -5756,6 +6435,7 @@ const pokemonData = [
   {
     "id": 680,
     "name": "Doublade",
+    "aliases": [],
     "types": [
       "steel",
       "ghost"
@@ -5764,7 +6444,8 @@ const pokemonData = [
   },
   {
     "id": 681,
-    "name": "Aegislash-shield",
+    "name": "Aegislash",
+    "aliases": [],
     "types": [
       "steel",
       "ghost"
@@ -5774,6 +6455,7 @@ const pokemonData = [
   {
     "id": 682,
     "name": "Spritzee",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -5782,6 +6464,7 @@ const pokemonData = [
   {
     "id": 683,
     "name": "Aromatisse",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -5790,6 +6473,7 @@ const pokemonData = [
   {
     "id": 684,
     "name": "Swirlix",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -5798,6 +6482,7 @@ const pokemonData = [
   {
     "id": 685,
     "name": "Slurpuff",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -5806,6 +6491,7 @@ const pokemonData = [
   {
     "id": 686,
     "name": "Inkay",
+    "aliases": [],
     "types": [
       "dark",
       "psychic"
@@ -5815,6 +6501,7 @@ const pokemonData = [
   {
     "id": 687,
     "name": "Malamar",
+    "aliases": [],
     "types": [
       "dark",
       "psychic"
@@ -5824,6 +6511,7 @@ const pokemonData = [
   {
     "id": 688,
     "name": "Binacle",
+    "aliases": [],
     "types": [
       "rock",
       "water"
@@ -5833,6 +6521,7 @@ const pokemonData = [
   {
     "id": 689,
     "name": "Barbaracle",
+    "aliases": [],
     "types": [
       "rock",
       "water"
@@ -5842,6 +6531,7 @@ const pokemonData = [
   {
     "id": 690,
     "name": "Skrelp",
+    "aliases": [],
     "types": [
       "poison",
       "water"
@@ -5851,6 +6541,7 @@ const pokemonData = [
   {
     "id": 691,
     "name": "Dragalge",
+    "aliases": [],
     "types": [
       "poison",
       "dragon"
@@ -5860,6 +6551,7 @@ const pokemonData = [
   {
     "id": 692,
     "name": "Clauncher",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -5868,6 +6560,7 @@ const pokemonData = [
   {
     "id": 693,
     "name": "Clawitzer",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -5876,6 +6569,7 @@ const pokemonData = [
   {
     "id": 694,
     "name": "Helioptile",
+    "aliases": [],
     "types": [
       "electric",
       "normal"
@@ -5885,6 +6579,7 @@ const pokemonData = [
   {
     "id": 695,
     "name": "Heliolisk",
+    "aliases": [],
     "types": [
       "electric",
       "normal"
@@ -5894,6 +6589,7 @@ const pokemonData = [
   {
     "id": 696,
     "name": "Tyrunt",
+    "aliases": [],
     "types": [
       "rock",
       "dragon"
@@ -5903,6 +6599,7 @@ const pokemonData = [
   {
     "id": 697,
     "name": "Tyrantrum",
+    "aliases": [],
     "types": [
       "rock",
       "dragon"
@@ -5912,6 +6609,7 @@ const pokemonData = [
   {
     "id": 698,
     "name": "Amaura",
+    "aliases": [],
     "types": [
       "rock",
       "ice"
@@ -5921,6 +6619,7 @@ const pokemonData = [
   {
     "id": 699,
     "name": "Aurorus",
+    "aliases": [],
     "types": [
       "rock",
       "ice"
@@ -5930,6 +6629,7 @@ const pokemonData = [
   {
     "id": 700,
     "name": "Sylveon",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -5938,6 +6638,7 @@ const pokemonData = [
   {
     "id": 701,
     "name": "Hawlucha",
+    "aliases": [],
     "types": [
       "fighting",
       "flying"
@@ -5947,6 +6648,7 @@ const pokemonData = [
   {
     "id": 702,
     "name": "Dedenne",
+    "aliases": [],
     "types": [
       "electric",
       "fairy"
@@ -5956,6 +6658,7 @@ const pokemonData = [
   {
     "id": 703,
     "name": "Carbink",
+    "aliases": [],
     "types": [
       "rock",
       "fairy"
@@ -5965,6 +6668,7 @@ const pokemonData = [
   {
     "id": 704,
     "name": "Goomy",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -5973,6 +6677,7 @@ const pokemonData = [
   {
     "id": 705,
     "name": "Sliggoo",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -5981,6 +6686,7 @@ const pokemonData = [
   {
     "id": 706,
     "name": "Goodra",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -5989,6 +6695,7 @@ const pokemonData = [
   {
     "id": 707,
     "name": "Klefki",
+    "aliases": [],
     "types": [
       "steel",
       "fairy"
@@ -5998,6 +6705,7 @@ const pokemonData = [
   {
     "id": 708,
     "name": "Phantump",
+    "aliases": [],
     "types": [
       "ghost",
       "grass"
@@ -6007,6 +6715,7 @@ const pokemonData = [
   {
     "id": 709,
     "name": "Trevenant",
+    "aliases": [],
     "types": [
       "ghost",
       "grass"
@@ -6015,7 +6724,8 @@ const pokemonData = [
   },
   {
     "id": 710,
-    "name": "Pumpkaboo-average",
+    "name": "Pumpkaboo",
+    "aliases": [],
     "types": [
       "ghost",
       "grass"
@@ -6024,7 +6734,8 @@ const pokemonData = [
   },
   {
     "id": 711,
-    "name": "Gourgeist-average",
+    "name": "Gourgeist",
+    "aliases": [],
     "types": [
       "ghost",
       "grass"
@@ -6034,6 +6745,7 @@ const pokemonData = [
   {
     "id": 712,
     "name": "Bergmite",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -6042,6 +6754,7 @@ const pokemonData = [
   {
     "id": 713,
     "name": "Avalugg",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -6050,6 +6763,7 @@ const pokemonData = [
   {
     "id": 714,
     "name": "Noibat",
+    "aliases": [],
     "types": [
       "flying",
       "dragon"
@@ -6059,6 +6773,7 @@ const pokemonData = [
   {
     "id": 715,
     "name": "Noivern",
+    "aliases": [],
     "types": [
       "flying",
       "dragon"
@@ -6068,6 +6783,7 @@ const pokemonData = [
   {
     "id": 716,
     "name": "Xerneas",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -6076,6 +6792,7 @@ const pokemonData = [
   {
     "id": 717,
     "name": "Yveltal",
+    "aliases": [],
     "types": [
       "dark",
       "flying"
@@ -6084,7 +6801,8 @@ const pokemonData = [
   },
   {
     "id": 718,
-    "name": "Zygarde-50",
+    "name": "Zygarde",
+    "aliases": [],
     "types": [
       "dragon",
       "ground"
@@ -6094,6 +6812,7 @@ const pokemonData = [
   {
     "id": 719,
     "name": "Diancie",
+    "aliases": [],
     "types": [
       "rock",
       "fairy"
@@ -6103,6 +6822,7 @@ const pokemonData = [
   {
     "id": 720,
     "name": "Hoopa",
+    "aliases": [],
     "types": [
       "psychic",
       "ghost"
@@ -6112,6 +6832,7 @@ const pokemonData = [
   {
     "id": 721,
     "name": "Volcanion",
+    "aliases": [],
     "types": [
       "fire",
       "water"
@@ -6121,6 +6842,7 @@ const pokemonData = [
   {
     "id": 722,
     "name": "Rowlet",
+    "aliases": [],
     "types": [
       "grass",
       "flying"
@@ -6130,6 +6852,7 @@ const pokemonData = [
   {
     "id": 723,
     "name": "Dartrix",
+    "aliases": [],
     "types": [
       "grass",
       "flying"
@@ -6139,6 +6862,7 @@ const pokemonData = [
   {
     "id": 724,
     "name": "Decidueye",
+    "aliases": [],
     "types": [
       "grass",
       "ghost"
@@ -6148,6 +6872,7 @@ const pokemonData = [
   {
     "id": 725,
     "name": "Litten",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -6156,6 +6881,7 @@ const pokemonData = [
   {
     "id": 726,
     "name": "Torracat",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -6164,6 +6890,7 @@ const pokemonData = [
   {
     "id": 727,
     "name": "Incineroar",
+    "aliases": [],
     "types": [
       "fire",
       "dark"
@@ -6173,6 +6900,7 @@ const pokemonData = [
   {
     "id": 728,
     "name": "Popplio",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -6181,6 +6909,7 @@ const pokemonData = [
   {
     "id": 729,
     "name": "Brionne",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -6189,6 +6918,7 @@ const pokemonData = [
   {
     "id": 730,
     "name": "Primarina",
+    "aliases": [],
     "types": [
       "water",
       "fairy"
@@ -6198,6 +6928,7 @@ const pokemonData = [
   {
     "id": 731,
     "name": "Pikipek",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -6207,6 +6938,7 @@ const pokemonData = [
   {
     "id": 732,
     "name": "Trumbeak",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -6216,6 +6948,7 @@ const pokemonData = [
   {
     "id": 733,
     "name": "Toucannon",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -6225,6 +6958,7 @@ const pokemonData = [
   {
     "id": 734,
     "name": "Yungoos",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -6233,6 +6967,7 @@ const pokemonData = [
   {
     "id": 735,
     "name": "Gumshoos",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -6241,6 +6976,7 @@ const pokemonData = [
   {
     "id": 736,
     "name": "Grubbin",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -6249,6 +6985,7 @@ const pokemonData = [
   {
     "id": 737,
     "name": "Charjabug",
+    "aliases": [],
     "types": [
       "bug",
       "electric"
@@ -6258,6 +6995,7 @@ const pokemonData = [
   {
     "id": 738,
     "name": "Vikavolt",
+    "aliases": [],
     "types": [
       "bug",
       "electric"
@@ -6267,6 +7005,7 @@ const pokemonData = [
   {
     "id": 739,
     "name": "Crabrawler",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -6275,6 +7014,7 @@ const pokemonData = [
   {
     "id": 740,
     "name": "Crabominable",
+    "aliases": [],
     "types": [
       "fighting",
       "ice"
@@ -6283,7 +7023,8 @@ const pokemonData = [
   },
   {
     "id": 741,
-    "name": "Oricorio-baile",
+    "name": "Oricorio",
+    "aliases": [],
     "types": [
       "fire",
       "flying"
@@ -6293,6 +7034,7 @@ const pokemonData = [
   {
     "id": 742,
     "name": "Cutiefly",
+    "aliases": [],
     "types": [
       "bug",
       "fairy"
@@ -6302,6 +7044,7 @@ const pokemonData = [
   {
     "id": 743,
     "name": "Ribombee",
+    "aliases": [],
     "types": [
       "bug",
       "fairy"
@@ -6311,6 +7054,7 @@ const pokemonData = [
   {
     "id": 744,
     "name": "Rockruff",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -6318,7 +7062,8 @@ const pokemonData = [
   },
   {
     "id": 745,
-    "name": "Lycanroc-midday",
+    "name": "Lycanroc",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -6326,7 +7071,8 @@ const pokemonData = [
   },
   {
     "id": 746,
-    "name": "Wishiwashi-solo",
+    "name": "Wishiwashi",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -6335,6 +7081,7 @@ const pokemonData = [
   {
     "id": 747,
     "name": "Mareanie",
+    "aliases": [],
     "types": [
       "poison",
       "water"
@@ -6344,6 +7091,7 @@ const pokemonData = [
   {
     "id": 748,
     "name": "Toxapex",
+    "aliases": [],
     "types": [
       "poison",
       "water"
@@ -6353,6 +7101,7 @@ const pokemonData = [
   {
     "id": 749,
     "name": "Mudbray",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -6361,6 +7110,7 @@ const pokemonData = [
   {
     "id": 750,
     "name": "Mudsdale",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -6369,6 +7119,7 @@ const pokemonData = [
   {
     "id": 751,
     "name": "Dewpider",
+    "aliases": [],
     "types": [
       "water",
       "bug"
@@ -6378,6 +7129,7 @@ const pokemonData = [
   {
     "id": 752,
     "name": "Araquanid",
+    "aliases": [],
     "types": [
       "water",
       "bug"
@@ -6387,6 +7139,7 @@ const pokemonData = [
   {
     "id": 753,
     "name": "Fomantis",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -6395,6 +7148,7 @@ const pokemonData = [
   {
     "id": 754,
     "name": "Lurantis",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -6403,6 +7157,7 @@ const pokemonData = [
   {
     "id": 755,
     "name": "Morelull",
+    "aliases": [],
     "types": [
       "grass",
       "fairy"
@@ -6412,6 +7167,7 @@ const pokemonData = [
   {
     "id": 756,
     "name": "Shiinotic",
+    "aliases": [],
     "types": [
       "grass",
       "fairy"
@@ -6421,6 +7177,7 @@ const pokemonData = [
   {
     "id": 757,
     "name": "Salandit",
+    "aliases": [],
     "types": [
       "poison",
       "fire"
@@ -6430,6 +7187,7 @@ const pokemonData = [
   {
     "id": 758,
     "name": "Salazzle",
+    "aliases": [],
     "types": [
       "poison",
       "fire"
@@ -6439,6 +7197,7 @@ const pokemonData = [
   {
     "id": 759,
     "name": "Stufful",
+    "aliases": [],
     "types": [
       "normal",
       "fighting"
@@ -6448,6 +7207,7 @@ const pokemonData = [
   {
     "id": 760,
     "name": "Bewear",
+    "aliases": [],
     "types": [
       "normal",
       "fighting"
@@ -6457,6 +7217,7 @@ const pokemonData = [
   {
     "id": 761,
     "name": "Bounsweet",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -6465,6 +7226,7 @@ const pokemonData = [
   {
     "id": 762,
     "name": "Steenee",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -6473,6 +7235,7 @@ const pokemonData = [
   {
     "id": 763,
     "name": "Tsareena",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -6481,6 +7244,7 @@ const pokemonData = [
   {
     "id": 764,
     "name": "Comfey",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -6489,6 +7253,7 @@ const pokemonData = [
   {
     "id": 765,
     "name": "Oranguru",
+    "aliases": [],
     "types": [
       "normal",
       "psychic"
@@ -6498,6 +7263,7 @@ const pokemonData = [
   {
     "id": 766,
     "name": "Passimian",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -6506,6 +7272,7 @@ const pokemonData = [
   {
     "id": 767,
     "name": "Wimpod",
+    "aliases": [],
     "types": [
       "bug",
       "water"
@@ -6515,6 +7282,7 @@ const pokemonData = [
   {
     "id": 768,
     "name": "Golisopod",
+    "aliases": [],
     "types": [
       "bug",
       "water"
@@ -6524,6 +7292,7 @@ const pokemonData = [
   {
     "id": 769,
     "name": "Sandygast",
+    "aliases": [],
     "types": [
       "ghost",
       "ground"
@@ -6533,6 +7302,7 @@ const pokemonData = [
   {
     "id": 770,
     "name": "Palossand",
+    "aliases": [],
     "types": [
       "ghost",
       "ground"
@@ -6542,6 +7312,7 @@ const pokemonData = [
   {
     "id": 771,
     "name": "Pyukumuku",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -6549,7 +7320,10 @@ const pokemonData = [
   },
   {
     "id": 772,
-    "name": "Type-null",
+    "name": "Type: Null",
+    "aliases": [
+      "Código Cero"
+    ],
     "types": [
       "normal"
     ],
@@ -6558,6 +7332,7 @@ const pokemonData = [
   {
     "id": 773,
     "name": "Silvally",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -6565,7 +7340,8 @@ const pokemonData = [
   },
   {
     "id": 774,
-    "name": "Minior-red-meteor",
+    "name": "Minior",
+    "aliases": [],
     "types": [
       "rock",
       "flying"
@@ -6575,6 +7351,7 @@ const pokemonData = [
   {
     "id": 775,
     "name": "Komala",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -6583,6 +7360,7 @@ const pokemonData = [
   {
     "id": 776,
     "name": "Turtonator",
+    "aliases": [],
     "types": [
       "fire",
       "dragon"
@@ -6592,6 +7370,7 @@ const pokemonData = [
   {
     "id": 777,
     "name": "Togedemaru",
+    "aliases": [],
     "types": [
       "electric",
       "steel"
@@ -6600,7 +7379,8 @@ const pokemonData = [
   },
   {
     "id": 778,
-    "name": "Mimikyu-disguised",
+    "name": "Mimikyu",
+    "aliases": [],
     "types": [
       "ghost",
       "fairy"
@@ -6610,6 +7390,7 @@ const pokemonData = [
   {
     "id": 779,
     "name": "Bruxish",
+    "aliases": [],
     "types": [
       "water",
       "psychic"
@@ -6619,6 +7400,7 @@ const pokemonData = [
   {
     "id": 780,
     "name": "Drampa",
+    "aliases": [],
     "types": [
       "normal",
       "dragon"
@@ -6628,6 +7410,7 @@ const pokemonData = [
   {
     "id": 781,
     "name": "Dhelmise",
+    "aliases": [],
     "types": [
       "ghost",
       "grass"
@@ -6637,6 +7420,7 @@ const pokemonData = [
   {
     "id": 782,
     "name": "Jangmo-o",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -6645,6 +7429,7 @@ const pokemonData = [
   {
     "id": 783,
     "name": "Hakamo-o",
+    "aliases": [],
     "types": [
       "dragon",
       "fighting"
@@ -6654,6 +7439,7 @@ const pokemonData = [
   {
     "id": 784,
     "name": "Kommo-o",
+    "aliases": [],
     "types": [
       "dragon",
       "fighting"
@@ -6662,7 +7448,8 @@ const pokemonData = [
   },
   {
     "id": 785,
-    "name": "Tapu-koko",
+    "name": "Tapu Koko",
+    "aliases": [],
     "types": [
       "electric",
       "fairy"
@@ -6671,7 +7458,8 @@ const pokemonData = [
   },
   {
     "id": 786,
-    "name": "Tapu-lele",
+    "name": "Tapu Lele",
+    "aliases": [],
     "types": [
       "psychic",
       "fairy"
@@ -6680,7 +7468,8 @@ const pokemonData = [
   },
   {
     "id": 787,
-    "name": "Tapu-bulu",
+    "name": "Tapu Bulu",
+    "aliases": [],
     "types": [
       "grass",
       "fairy"
@@ -6689,7 +7478,8 @@ const pokemonData = [
   },
   {
     "id": 788,
-    "name": "Tapu-fini",
+    "name": "Tapu Fini",
+    "aliases": [],
     "types": [
       "water",
       "fairy"
@@ -6699,6 +7489,7 @@ const pokemonData = [
   {
     "id": 789,
     "name": "Cosmog",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -6707,6 +7498,7 @@ const pokemonData = [
   {
     "id": 790,
     "name": "Cosmoem",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -6715,6 +7507,7 @@ const pokemonData = [
   {
     "id": 791,
     "name": "Solgaleo",
+    "aliases": [],
     "types": [
       "psychic",
       "steel"
@@ -6724,6 +7517,7 @@ const pokemonData = [
   {
     "id": 792,
     "name": "Lunala",
+    "aliases": [],
     "types": [
       "psychic",
       "ghost"
@@ -6733,6 +7527,7 @@ const pokemonData = [
   {
     "id": 793,
     "name": "Nihilego",
+    "aliases": [],
     "types": [
       "rock",
       "poison"
@@ -6742,6 +7537,7 @@ const pokemonData = [
   {
     "id": 794,
     "name": "Buzzwole",
+    "aliases": [],
     "types": [
       "bug",
       "fighting"
@@ -6751,6 +7547,7 @@ const pokemonData = [
   {
     "id": 795,
     "name": "Pheromosa",
+    "aliases": [],
     "types": [
       "bug",
       "fighting"
@@ -6760,6 +7557,7 @@ const pokemonData = [
   {
     "id": 796,
     "name": "Xurkitree",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -6768,6 +7566,7 @@ const pokemonData = [
   {
     "id": 797,
     "name": "Celesteela",
+    "aliases": [],
     "types": [
       "steel",
       "flying"
@@ -6777,6 +7576,7 @@ const pokemonData = [
   {
     "id": 798,
     "name": "Kartana",
+    "aliases": [],
     "types": [
       "grass",
       "steel"
@@ -6786,6 +7586,7 @@ const pokemonData = [
   {
     "id": 799,
     "name": "Guzzlord",
+    "aliases": [],
     "types": [
       "dark",
       "dragon"
@@ -6795,6 +7596,7 @@ const pokemonData = [
   {
     "id": 800,
     "name": "Necrozma",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -6803,6 +7605,7 @@ const pokemonData = [
   {
     "id": 801,
     "name": "Magearna",
+    "aliases": [],
     "types": [
       "steel",
       "fairy"
@@ -6812,6 +7615,7 @@ const pokemonData = [
   {
     "id": 802,
     "name": "Marshadow",
+    "aliases": [],
     "types": [
       "fighting",
       "ghost"
@@ -6821,6 +7625,7 @@ const pokemonData = [
   {
     "id": 803,
     "name": "Poipole",
+    "aliases": [],
     "types": [
       "poison"
     ],
@@ -6829,6 +7634,7 @@ const pokemonData = [
   {
     "id": 804,
     "name": "Naganadel",
+    "aliases": [],
     "types": [
       "poison",
       "dragon"
@@ -6838,6 +7644,7 @@ const pokemonData = [
   {
     "id": 805,
     "name": "Stakataka",
+    "aliases": [],
     "types": [
       "rock",
       "steel"
@@ -6847,6 +7654,7 @@ const pokemonData = [
   {
     "id": 806,
     "name": "Blacephalon",
+    "aliases": [],
     "types": [
       "fire",
       "ghost"
@@ -6856,6 +7664,7 @@ const pokemonData = [
   {
     "id": 807,
     "name": "Zeraora",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -6864,6 +7673,7 @@ const pokemonData = [
   {
     "id": 808,
     "name": "Meltan",
+    "aliases": [],
     "types": [
       "steel"
     ],
@@ -6872,6 +7682,7 @@ const pokemonData = [
   {
     "id": 809,
     "name": "Melmetal",
+    "aliases": [],
     "types": [
       "steel"
     ],
@@ -6880,6 +7691,7 @@ const pokemonData = [
   {
     "id": 810,
     "name": "Grookey",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -6888,6 +7700,7 @@ const pokemonData = [
   {
     "id": 811,
     "name": "Thwackey",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -6896,6 +7709,7 @@ const pokemonData = [
   {
     "id": 812,
     "name": "Rillaboom",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -6904,6 +7718,7 @@ const pokemonData = [
   {
     "id": 813,
     "name": "Scorbunny",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -6912,6 +7727,7 @@ const pokemonData = [
   {
     "id": 814,
     "name": "Raboot",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -6920,6 +7736,7 @@ const pokemonData = [
   {
     "id": 815,
     "name": "Cinderace",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -6928,6 +7745,7 @@ const pokemonData = [
   {
     "id": 816,
     "name": "Sobble",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -6936,6 +7754,7 @@ const pokemonData = [
   {
     "id": 817,
     "name": "Drizzile",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -6944,6 +7763,7 @@ const pokemonData = [
   {
     "id": 818,
     "name": "Inteleon",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -6952,6 +7772,7 @@ const pokemonData = [
   {
     "id": 819,
     "name": "Skwovet",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -6960,6 +7781,7 @@ const pokemonData = [
   {
     "id": 820,
     "name": "Greedent",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -6968,6 +7790,7 @@ const pokemonData = [
   {
     "id": 821,
     "name": "Rookidee",
+    "aliases": [],
     "types": [
       "flying"
     ],
@@ -6976,6 +7799,7 @@ const pokemonData = [
   {
     "id": 822,
     "name": "Corvisquire",
+    "aliases": [],
     "types": [
       "flying"
     ],
@@ -6984,6 +7808,7 @@ const pokemonData = [
   {
     "id": 823,
     "name": "Corviknight",
+    "aliases": [],
     "types": [
       "flying",
       "steel"
@@ -6993,6 +7818,7 @@ const pokemonData = [
   {
     "id": 824,
     "name": "Blipbug",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -7001,6 +7827,7 @@ const pokemonData = [
   {
     "id": 825,
     "name": "Dottler",
+    "aliases": [],
     "types": [
       "bug",
       "psychic"
@@ -7010,6 +7837,7 @@ const pokemonData = [
   {
     "id": 826,
     "name": "Orbeetle",
+    "aliases": [],
     "types": [
       "bug",
       "psychic"
@@ -7019,6 +7847,7 @@ const pokemonData = [
   {
     "id": 827,
     "name": "Nickit",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -7027,6 +7856,7 @@ const pokemonData = [
   {
     "id": 828,
     "name": "Thievul",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -7035,6 +7865,7 @@ const pokemonData = [
   {
     "id": 829,
     "name": "Gossifleur",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -7043,6 +7874,7 @@ const pokemonData = [
   {
     "id": 830,
     "name": "Eldegoss",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -7051,6 +7883,7 @@ const pokemonData = [
   {
     "id": 831,
     "name": "Wooloo",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -7059,6 +7892,7 @@ const pokemonData = [
   {
     "id": 832,
     "name": "Dubwool",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -7067,6 +7901,7 @@ const pokemonData = [
   {
     "id": 833,
     "name": "Chewtle",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -7075,6 +7910,7 @@ const pokemonData = [
   {
     "id": 834,
     "name": "Drednaw",
+    "aliases": [],
     "types": [
       "water",
       "rock"
@@ -7084,6 +7920,7 @@ const pokemonData = [
   {
     "id": 835,
     "name": "Yamper",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -7092,6 +7929,7 @@ const pokemonData = [
   {
     "id": 836,
     "name": "Boltund",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -7100,6 +7938,7 @@ const pokemonData = [
   {
     "id": 837,
     "name": "Rolycoly",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -7108,6 +7947,7 @@ const pokemonData = [
   {
     "id": 838,
     "name": "Carkol",
+    "aliases": [],
     "types": [
       "rock",
       "fire"
@@ -7117,6 +7957,7 @@ const pokemonData = [
   {
     "id": 839,
     "name": "Coalossal",
+    "aliases": [],
     "types": [
       "rock",
       "fire"
@@ -7126,6 +7967,7 @@ const pokemonData = [
   {
     "id": 840,
     "name": "Applin",
+    "aliases": [],
     "types": [
       "grass",
       "dragon"
@@ -7135,6 +7977,7 @@ const pokemonData = [
   {
     "id": 841,
     "name": "Flapple",
+    "aliases": [],
     "types": [
       "grass",
       "dragon"
@@ -7144,6 +7987,7 @@ const pokemonData = [
   {
     "id": 842,
     "name": "Appletun",
+    "aliases": [],
     "types": [
       "grass",
       "dragon"
@@ -7153,6 +7997,7 @@ const pokemonData = [
   {
     "id": 843,
     "name": "Silicobra",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -7161,6 +8006,7 @@ const pokemonData = [
   {
     "id": 844,
     "name": "Sandaconda",
+    "aliases": [],
     "types": [
       "ground"
     ],
@@ -7169,6 +8015,7 @@ const pokemonData = [
   {
     "id": 845,
     "name": "Cramorant",
+    "aliases": [],
     "types": [
       "flying",
       "water"
@@ -7178,6 +8025,7 @@ const pokemonData = [
   {
     "id": 846,
     "name": "Arrokuda",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -7186,6 +8034,7 @@ const pokemonData = [
   {
     "id": 847,
     "name": "Barraskewda",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -7194,6 +8043,7 @@ const pokemonData = [
   {
     "id": 848,
     "name": "Toxel",
+    "aliases": [],
     "types": [
       "electric",
       "poison"
@@ -7202,7 +8052,8 @@ const pokemonData = [
   },
   {
     "id": 849,
-    "name": "Toxtricity-amped",
+    "name": "Toxtricity",
+    "aliases": [],
     "types": [
       "electric",
       "poison"
@@ -7212,6 +8063,7 @@ const pokemonData = [
   {
     "id": 850,
     "name": "Sizzlipede",
+    "aliases": [],
     "types": [
       "fire",
       "bug"
@@ -7221,6 +8073,7 @@ const pokemonData = [
   {
     "id": 851,
     "name": "Centiskorch",
+    "aliases": [],
     "types": [
       "fire",
       "bug"
@@ -7230,6 +8083,7 @@ const pokemonData = [
   {
     "id": 852,
     "name": "Clobbopus",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -7238,6 +8092,7 @@ const pokemonData = [
   {
     "id": 853,
     "name": "Grapploct",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -7246,6 +8101,7 @@ const pokemonData = [
   {
     "id": 854,
     "name": "Sinistea",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -7254,6 +8110,7 @@ const pokemonData = [
   {
     "id": 855,
     "name": "Polteageist",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -7262,6 +8119,7 @@ const pokemonData = [
   {
     "id": 856,
     "name": "Hatenna",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -7270,6 +8128,7 @@ const pokemonData = [
   {
     "id": 857,
     "name": "Hattrem",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -7278,6 +8137,7 @@ const pokemonData = [
   {
     "id": 858,
     "name": "Hatterene",
+    "aliases": [],
     "types": [
       "psychic",
       "fairy"
@@ -7287,6 +8147,7 @@ const pokemonData = [
   {
     "id": 859,
     "name": "Impidimp",
+    "aliases": [],
     "types": [
       "dark",
       "fairy"
@@ -7296,6 +8157,7 @@ const pokemonData = [
   {
     "id": 860,
     "name": "Morgrem",
+    "aliases": [],
     "types": [
       "dark",
       "fairy"
@@ -7305,6 +8167,7 @@ const pokemonData = [
   {
     "id": 861,
     "name": "Grimmsnarl",
+    "aliases": [],
     "types": [
       "dark",
       "fairy"
@@ -7314,6 +8177,7 @@ const pokemonData = [
   {
     "id": 862,
     "name": "Obstagoon",
+    "aliases": [],
     "types": [
       "dark",
       "normal"
@@ -7323,6 +8187,7 @@ const pokemonData = [
   {
     "id": 863,
     "name": "Perrserker",
+    "aliases": [],
     "types": [
       "steel"
     ],
@@ -7331,6 +8196,7 @@ const pokemonData = [
   {
     "id": 864,
     "name": "Cursola",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -7338,7 +8204,8 @@ const pokemonData = [
   },
   {
     "id": 865,
-    "name": "Sirfetchd",
+    "name": "Sirfetch’d",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -7346,7 +8213,8 @@ const pokemonData = [
   },
   {
     "id": 866,
-    "name": "Mr-rime",
+    "name": "Mr. Rime",
+    "aliases": [],
     "types": [
       "ice",
       "psychic"
@@ -7356,6 +8224,7 @@ const pokemonData = [
   {
     "id": 867,
     "name": "Runerigus",
+    "aliases": [],
     "types": [
       "ground",
       "ghost"
@@ -7365,6 +8234,7 @@ const pokemonData = [
   {
     "id": 868,
     "name": "Milcery",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -7373,6 +8243,7 @@ const pokemonData = [
   {
     "id": 869,
     "name": "Alcremie",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -7381,6 +8252,7 @@ const pokemonData = [
   {
     "id": 870,
     "name": "Falinks",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -7389,6 +8261,7 @@ const pokemonData = [
   {
     "id": 871,
     "name": "Pincurchin",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -7397,6 +8270,7 @@ const pokemonData = [
   {
     "id": 872,
     "name": "Snom",
+    "aliases": [],
     "types": [
       "ice",
       "bug"
@@ -7406,6 +8280,7 @@ const pokemonData = [
   {
     "id": 873,
     "name": "Frosmoth",
+    "aliases": [],
     "types": [
       "ice",
       "bug"
@@ -7415,6 +8290,7 @@ const pokemonData = [
   {
     "id": 874,
     "name": "Stonjourner",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -7422,7 +8298,8 @@ const pokemonData = [
   },
   {
     "id": 875,
-    "name": "Eiscue-ice",
+    "name": "Eiscue",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -7430,7 +8307,8 @@ const pokemonData = [
   },
   {
     "id": 876,
-    "name": "Indeedee-male",
+    "name": "Indeedee",
+    "aliases": [],
     "types": [
       "psychic",
       "normal"
@@ -7439,7 +8317,8 @@ const pokemonData = [
   },
   {
     "id": 877,
-    "name": "Morpeko-full-belly",
+    "name": "Morpeko",
+    "aliases": [],
     "types": [
       "electric",
       "dark"
@@ -7449,6 +8328,7 @@ const pokemonData = [
   {
     "id": 878,
     "name": "Cufant",
+    "aliases": [],
     "types": [
       "steel"
     ],
@@ -7457,6 +8337,7 @@ const pokemonData = [
   {
     "id": 879,
     "name": "Copperajah",
+    "aliases": [],
     "types": [
       "steel"
     ],
@@ -7465,6 +8346,7 @@ const pokemonData = [
   {
     "id": 880,
     "name": "Dracozolt",
+    "aliases": [],
     "types": [
       "electric",
       "dragon"
@@ -7474,6 +8356,7 @@ const pokemonData = [
   {
     "id": 881,
     "name": "Arctozolt",
+    "aliases": [],
     "types": [
       "electric",
       "ice"
@@ -7483,6 +8366,7 @@ const pokemonData = [
   {
     "id": 882,
     "name": "Dracovish",
+    "aliases": [],
     "types": [
       "water",
       "dragon"
@@ -7492,6 +8376,7 @@ const pokemonData = [
   {
     "id": 883,
     "name": "Arctovish",
+    "aliases": [],
     "types": [
       "water",
       "ice"
@@ -7501,6 +8386,7 @@ const pokemonData = [
   {
     "id": 884,
     "name": "Duraludon",
+    "aliases": [],
     "types": [
       "steel",
       "dragon"
@@ -7510,6 +8396,7 @@ const pokemonData = [
   {
     "id": 885,
     "name": "Dreepy",
+    "aliases": [],
     "types": [
       "dragon",
       "ghost"
@@ -7519,6 +8406,7 @@ const pokemonData = [
   {
     "id": 886,
     "name": "Drakloak",
+    "aliases": [],
     "types": [
       "dragon",
       "ghost"
@@ -7528,6 +8416,7 @@ const pokemonData = [
   {
     "id": 887,
     "name": "Dragapult",
+    "aliases": [],
     "types": [
       "dragon",
       "ghost"
@@ -7537,6 +8426,7 @@ const pokemonData = [
   {
     "id": 888,
     "name": "Zacian",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -7545,6 +8435,7 @@ const pokemonData = [
   {
     "id": 889,
     "name": "Zamazenta",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -7553,6 +8444,7 @@ const pokemonData = [
   {
     "id": 890,
     "name": "Eternatus",
+    "aliases": [],
     "types": [
       "poison",
       "dragon"
@@ -7562,6 +8454,7 @@ const pokemonData = [
   {
     "id": 891,
     "name": "Kubfu",
+    "aliases": [],
     "types": [
       "fighting"
     ],
@@ -7569,7 +8462,8 @@ const pokemonData = [
   },
   {
     "id": 892,
-    "name": "Urshifu-single-strike",
+    "name": "Urshifu",
+    "aliases": [],
     "types": [
       "fighting",
       "dark"
@@ -7579,6 +8473,7 @@ const pokemonData = [
   {
     "id": 893,
     "name": "Zarude",
+    "aliases": [],
     "types": [
       "dark",
       "grass"
@@ -7588,6 +8483,7 @@ const pokemonData = [
   {
     "id": 894,
     "name": "Regieleki",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -7596,6 +8492,7 @@ const pokemonData = [
   {
     "id": 895,
     "name": "Regidrago",
+    "aliases": [],
     "types": [
       "dragon"
     ],
@@ -7604,6 +8501,7 @@ const pokemonData = [
   {
     "id": 896,
     "name": "Glastrier",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -7612,6 +8510,7 @@ const pokemonData = [
   {
     "id": 897,
     "name": "Spectrier",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -7620,6 +8519,7 @@ const pokemonData = [
   {
     "id": 898,
     "name": "Calyrex",
+    "aliases": [],
     "types": [
       "psychic",
       "grass"
@@ -7629,6 +8529,7 @@ const pokemonData = [
   {
     "id": 899,
     "name": "Wyrdeer",
+    "aliases": [],
     "types": [
       "normal",
       "psychic"
@@ -7638,6 +8539,7 @@ const pokemonData = [
   {
     "id": 900,
     "name": "Kleavor",
+    "aliases": [],
     "types": [
       "bug",
       "rock"
@@ -7647,6 +8549,7 @@ const pokemonData = [
   {
     "id": 901,
     "name": "Ursaluna",
+    "aliases": [],
     "types": [
       "ground",
       "normal"
@@ -7655,7 +8558,8 @@ const pokemonData = [
   },
   {
     "id": 902,
-    "name": "Basculegion-male",
+    "name": "Basculegion",
+    "aliases": [],
     "types": [
       "water",
       "ghost"
@@ -7665,6 +8569,7 @@ const pokemonData = [
   {
     "id": 903,
     "name": "Sneasler",
+    "aliases": [],
     "types": [
       "fighting",
       "poison"
@@ -7674,6 +8579,7 @@ const pokemonData = [
   {
     "id": 904,
     "name": "Overqwil",
+    "aliases": [],
     "types": [
       "dark",
       "poison"
@@ -7682,7 +8588,8 @@ const pokemonData = [
   },
   {
     "id": 905,
-    "name": "Enamorus-incarnate",
+    "name": "Enamorus",
+    "aliases": [],
     "types": [
       "fairy",
       "flying"
@@ -7692,6 +8599,7 @@ const pokemonData = [
   {
     "id": 906,
     "name": "Sprigatito",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -7700,6 +8608,7 @@ const pokemonData = [
   {
     "id": 907,
     "name": "Floragato",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -7708,6 +8617,7 @@ const pokemonData = [
   {
     "id": 908,
     "name": "Meowscarada",
+    "aliases": [],
     "types": [
       "grass",
       "dark"
@@ -7717,6 +8627,7 @@ const pokemonData = [
   {
     "id": 909,
     "name": "Fuecoco",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -7725,6 +8636,7 @@ const pokemonData = [
   {
     "id": 910,
     "name": "Crocalor",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -7733,6 +8645,7 @@ const pokemonData = [
   {
     "id": 911,
     "name": "Skeledirge",
+    "aliases": [],
     "types": [
       "fire",
       "ghost"
@@ -7742,6 +8655,7 @@ const pokemonData = [
   {
     "id": 912,
     "name": "Quaxly",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -7750,6 +8664,7 @@ const pokemonData = [
   {
     "id": 913,
     "name": "Quaxwell",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -7758,6 +8673,7 @@ const pokemonData = [
   {
     "id": 914,
     "name": "Quaquaval",
+    "aliases": [],
     "types": [
       "water",
       "fighting"
@@ -7767,6 +8683,7 @@ const pokemonData = [
   {
     "id": 915,
     "name": "Lechonk",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -7774,7 +8691,8 @@ const pokemonData = [
   },
   {
     "id": 916,
-    "name": "Oinkologne-male",
+    "name": "Oinkologne",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -7783,6 +8701,7 @@ const pokemonData = [
   {
     "id": 917,
     "name": "Tarountula",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -7791,6 +8710,7 @@ const pokemonData = [
   {
     "id": 918,
     "name": "Spidops",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -7799,6 +8719,7 @@ const pokemonData = [
   {
     "id": 919,
     "name": "Nymble",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -7807,6 +8728,7 @@ const pokemonData = [
   {
     "id": 920,
     "name": "Lokix",
+    "aliases": [],
     "types": [
       "bug",
       "dark"
@@ -7816,6 +8738,7 @@ const pokemonData = [
   {
     "id": 921,
     "name": "Pawmi",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -7824,6 +8747,7 @@ const pokemonData = [
   {
     "id": 922,
     "name": "Pawmo",
+    "aliases": [],
     "types": [
       "electric",
       "fighting"
@@ -7833,6 +8757,7 @@ const pokemonData = [
   {
     "id": 923,
     "name": "Pawmot",
+    "aliases": [],
     "types": [
       "electric",
       "fighting"
@@ -7842,6 +8767,7 @@ const pokemonData = [
   {
     "id": 924,
     "name": "Tandemaus",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -7849,7 +8775,8 @@ const pokemonData = [
   },
   {
     "id": 925,
-    "name": "Maushold-family-of-four",
+    "name": "Maushold",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -7858,6 +8785,7 @@ const pokemonData = [
   {
     "id": 926,
     "name": "Fidough",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -7866,6 +8794,7 @@ const pokemonData = [
   {
     "id": 927,
     "name": "Dachsbun",
+    "aliases": [],
     "types": [
       "fairy"
     ],
@@ -7874,6 +8803,7 @@ const pokemonData = [
   {
     "id": 928,
     "name": "Smoliv",
+    "aliases": [],
     "types": [
       "grass",
       "normal"
@@ -7883,6 +8813,7 @@ const pokemonData = [
   {
     "id": 929,
     "name": "Dolliv",
+    "aliases": [],
     "types": [
       "grass",
       "normal"
@@ -7892,6 +8823,7 @@ const pokemonData = [
   {
     "id": 930,
     "name": "Arboliva",
+    "aliases": [],
     "types": [
       "grass",
       "normal"
@@ -7900,7 +8832,8 @@ const pokemonData = [
   },
   {
     "id": 931,
-    "name": "Squawkabilly-green-plumage",
+    "name": "Squawkabilly",
+    "aliases": [],
     "types": [
       "normal",
       "flying"
@@ -7910,6 +8843,7 @@ const pokemonData = [
   {
     "id": 932,
     "name": "Nacli",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -7918,6 +8852,7 @@ const pokemonData = [
   {
     "id": 933,
     "name": "Naclstack",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -7926,6 +8861,7 @@ const pokemonData = [
   {
     "id": 934,
     "name": "Garganacl",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -7934,6 +8870,7 @@ const pokemonData = [
   {
     "id": 935,
     "name": "Charcadet",
+    "aliases": [],
     "types": [
       "fire"
     ],
@@ -7942,6 +8879,7 @@ const pokemonData = [
   {
     "id": 936,
     "name": "Armarouge",
+    "aliases": [],
     "types": [
       "fire",
       "psychic"
@@ -7951,6 +8889,7 @@ const pokemonData = [
   {
     "id": 937,
     "name": "Ceruledge",
+    "aliases": [],
     "types": [
       "fire",
       "ghost"
@@ -7960,6 +8899,7 @@ const pokemonData = [
   {
     "id": 938,
     "name": "Tadbulb",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -7968,6 +8908,7 @@ const pokemonData = [
   {
     "id": 939,
     "name": "Bellibolt",
+    "aliases": [],
     "types": [
       "electric"
     ],
@@ -7976,6 +8917,7 @@ const pokemonData = [
   {
     "id": 940,
     "name": "Wattrel",
+    "aliases": [],
     "types": [
       "electric",
       "flying"
@@ -7985,6 +8927,7 @@ const pokemonData = [
   {
     "id": 941,
     "name": "Kilowattrel",
+    "aliases": [],
     "types": [
       "electric",
       "flying"
@@ -7994,6 +8937,7 @@ const pokemonData = [
   {
     "id": 942,
     "name": "Maschiff",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -8002,6 +8946,7 @@ const pokemonData = [
   {
     "id": 943,
     "name": "Mabosstiff",
+    "aliases": [],
     "types": [
       "dark"
     ],
@@ -8010,6 +8955,7 @@ const pokemonData = [
   {
     "id": 944,
     "name": "Shroodle",
+    "aliases": [],
     "types": [
       "poison",
       "normal"
@@ -8019,6 +8965,7 @@ const pokemonData = [
   {
     "id": 945,
     "name": "Grafaiai",
+    "aliases": [],
     "types": [
       "poison",
       "normal"
@@ -8028,6 +8975,7 @@ const pokemonData = [
   {
     "id": 946,
     "name": "Bramblin",
+    "aliases": [],
     "types": [
       "grass",
       "ghost"
@@ -8037,6 +8985,7 @@ const pokemonData = [
   {
     "id": 947,
     "name": "Brambleghast",
+    "aliases": [],
     "types": [
       "grass",
       "ghost"
@@ -8046,6 +8995,7 @@ const pokemonData = [
   {
     "id": 948,
     "name": "Toedscool",
+    "aliases": [],
     "types": [
       "ground",
       "grass"
@@ -8055,6 +9005,7 @@ const pokemonData = [
   {
     "id": 949,
     "name": "Toedscruel",
+    "aliases": [],
     "types": [
       "ground",
       "grass"
@@ -8064,6 +9015,7 @@ const pokemonData = [
   {
     "id": 950,
     "name": "Klawf",
+    "aliases": [],
     "types": [
       "rock"
     ],
@@ -8072,6 +9024,7 @@ const pokemonData = [
   {
     "id": 951,
     "name": "Capsakid",
+    "aliases": [],
     "types": [
       "grass"
     ],
@@ -8080,6 +9033,7 @@ const pokemonData = [
   {
     "id": 952,
     "name": "Scovillain",
+    "aliases": [],
     "types": [
       "grass",
       "fire"
@@ -8089,6 +9043,7 @@ const pokemonData = [
   {
     "id": 953,
     "name": "Rellor",
+    "aliases": [],
     "types": [
       "bug"
     ],
@@ -8097,6 +9052,7 @@ const pokemonData = [
   {
     "id": 954,
     "name": "Rabsca",
+    "aliases": [],
     "types": [
       "bug",
       "psychic"
@@ -8106,6 +9062,7 @@ const pokemonData = [
   {
     "id": 955,
     "name": "Flittle",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -8114,6 +9071,7 @@ const pokemonData = [
   {
     "id": 956,
     "name": "Espathra",
+    "aliases": [],
     "types": [
       "psychic"
     ],
@@ -8122,6 +9080,7 @@ const pokemonData = [
   {
     "id": 957,
     "name": "Tinkatink",
+    "aliases": [],
     "types": [
       "fairy",
       "steel"
@@ -8131,6 +9090,7 @@ const pokemonData = [
   {
     "id": 958,
     "name": "Tinkatuff",
+    "aliases": [],
     "types": [
       "fairy",
       "steel"
@@ -8140,6 +9100,7 @@ const pokemonData = [
   {
     "id": 959,
     "name": "Tinkaton",
+    "aliases": [],
     "types": [
       "fairy",
       "steel"
@@ -8149,6 +9110,7 @@ const pokemonData = [
   {
     "id": 960,
     "name": "Wiglett",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -8157,6 +9119,7 @@ const pokemonData = [
   {
     "id": 961,
     "name": "Wugtrio",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -8165,6 +9128,7 @@ const pokemonData = [
   {
     "id": 962,
     "name": "Bombirdier",
+    "aliases": [],
     "types": [
       "flying",
       "dark"
@@ -8174,6 +9138,7 @@ const pokemonData = [
   {
     "id": 963,
     "name": "Finizen",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -8181,7 +9146,8 @@ const pokemonData = [
   },
   {
     "id": 964,
-    "name": "Palafin-zero",
+    "name": "Palafin",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -8190,6 +9156,7 @@ const pokemonData = [
   {
     "id": 965,
     "name": "Varoom",
+    "aliases": [],
     "types": [
       "steel",
       "poison"
@@ -8199,6 +9166,7 @@ const pokemonData = [
   {
     "id": 966,
     "name": "Revavroom",
+    "aliases": [],
     "types": [
       "steel",
       "poison"
@@ -8208,6 +9176,7 @@ const pokemonData = [
   {
     "id": 967,
     "name": "Cyclizar",
+    "aliases": [],
     "types": [
       "dragon",
       "normal"
@@ -8217,6 +9186,7 @@ const pokemonData = [
   {
     "id": 968,
     "name": "Orthworm",
+    "aliases": [],
     "types": [
       "steel"
     ],
@@ -8225,6 +9195,7 @@ const pokemonData = [
   {
     "id": 969,
     "name": "Glimmet",
+    "aliases": [],
     "types": [
       "rock",
       "poison"
@@ -8234,6 +9205,7 @@ const pokemonData = [
   {
     "id": 970,
     "name": "Glimmora",
+    "aliases": [],
     "types": [
       "rock",
       "poison"
@@ -8243,6 +9215,7 @@ const pokemonData = [
   {
     "id": 971,
     "name": "Greavard",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -8251,6 +9224,7 @@ const pokemonData = [
   {
     "id": 972,
     "name": "Houndstone",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -8259,6 +9233,7 @@ const pokemonData = [
   {
     "id": 973,
     "name": "Flamigo",
+    "aliases": [],
     "types": [
       "flying",
       "fighting"
@@ -8268,6 +9243,7 @@ const pokemonData = [
   {
     "id": 974,
     "name": "Cetoddle",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -8276,6 +9252,7 @@ const pokemonData = [
   {
     "id": 975,
     "name": "Cetitan",
+    "aliases": [],
     "types": [
       "ice"
     ],
@@ -8284,6 +9261,7 @@ const pokemonData = [
   {
     "id": 976,
     "name": "Veluza",
+    "aliases": [],
     "types": [
       "water",
       "psychic"
@@ -8293,6 +9271,7 @@ const pokemonData = [
   {
     "id": 977,
     "name": "Dondozo",
+    "aliases": [],
     "types": [
       "water"
     ],
@@ -8300,7 +9279,8 @@ const pokemonData = [
   },
   {
     "id": 978,
-    "name": "Tatsugiri-curly",
+    "name": "Tatsugiri",
+    "aliases": [],
     "types": [
       "dragon",
       "water"
@@ -8310,6 +9290,7 @@ const pokemonData = [
   {
     "id": 979,
     "name": "Annihilape",
+    "aliases": [],
     "types": [
       "fighting",
       "ghost"
@@ -8319,6 +9300,7 @@ const pokemonData = [
   {
     "id": 980,
     "name": "Clodsire",
+    "aliases": [],
     "types": [
       "poison",
       "ground"
@@ -8328,6 +9310,7 @@ const pokemonData = [
   {
     "id": 981,
     "name": "Farigiraf",
+    "aliases": [],
     "types": [
       "normal",
       "psychic"
@@ -8336,7 +9319,8 @@ const pokemonData = [
   },
   {
     "id": 982,
-    "name": "Dudunsparce-two-segment",
+    "name": "Dudunsparce",
+    "aliases": [],
     "types": [
       "normal"
     ],
@@ -8345,6 +9329,7 @@ const pokemonData = [
   {
     "id": 983,
     "name": "Kingambit",
+    "aliases": [],
     "types": [
       "dark",
       "steel"
@@ -8353,7 +9338,11 @@ const pokemonData = [
   },
   {
     "id": 984,
-    "name": "Great-tusk",
+    "name": "Great Tusk",
+    "aliases": [
+      "Presa Grande",
+      "Colmilargo"
+    ],
     "types": [
       "ground",
       "fighting"
@@ -8362,7 +9351,11 @@ const pokemonData = [
   },
   {
     "id": 985,
-    "name": "Scream-tail",
+    "name": "Scream Tail",
+    "aliases": [
+      "Cara de Pau",
+      "Colagrito"
+    ],
     "types": [
       "fairy",
       "psychic"
@@ -8371,7 +9364,12 @@ const pokemonData = [
   },
   {
     "id": 986,
-    "name": "Brute-bonnet",
+    "name": "Brute Bonnet",
+    "aliases": [
+      "Capuz de Tormenta",
+      "Capuz Tormenta",
+      "Furioseta"
+    ],
     "types": [
       "grass",
       "dark"
@@ -8380,7 +9378,11 @@ const pokemonData = [
   },
   {
     "id": 987,
-    "name": "Flutter-mane",
+    "name": "Flutter Mane",
+    "aliases": [
+      "Juba Voadora",
+      "Melenaleteo"
+    ],
     "types": [
       "ghost",
       "fairy"
@@ -8389,7 +9391,11 @@ const pokemonData = [
   },
   {
     "id": 988,
-    "name": "Slither-wing",
+    "name": "Slither Wing",
+    "aliases": [
+      "Rastejante",
+      "Reptalada"
+    ],
     "types": [
       "bug",
       "fighting"
@@ -8398,7 +9404,11 @@ const pokemonData = [
   },
   {
     "id": 989,
-    "name": "Sandy-shocks",
+    "name": "Sandy Shocks",
+    "aliases": [
+      "Terracoleta",
+      "Pelarena"
+    ],
     "types": [
       "electric",
       "ground"
@@ -8407,7 +9417,12 @@ const pokemonData = [
   },
   {
     "id": 990,
-    "name": "Iron-treads",
+    "name": "Iron Treads",
+    "aliases": [
+      "Lançaférrea",
+      "Lancaferrea",
+      "Ferrodada"
+    ],
     "types": [
       "ground",
       "steel"
@@ -8416,7 +9431,12 @@ const pokemonData = [
   },
   {
     "id": 991,
-    "name": "Iron-bundle",
+    "name": "Iron Bundle",
+    "aliases": [
+      "Mãosférreas",
+      "Maosferreas",
+      "Ferrosaco"
+    ],
     "types": [
       "ice",
       "water"
@@ -8425,7 +9445,12 @@ const pokemonData = [
   },
   {
     "id": 992,
-    "name": "Iron-hands",
+    "name": "Iron Hands",
+    "aliases": [
+      "Juggernaut Férreo",
+      "Juggernaut Ferrea",
+      "Ferropalmas"
+    ],
     "types": [
       "fighting",
       "electric"
@@ -8434,7 +9459,12 @@ const pokemonData = [
   },
   {
     "id": 993,
-    "name": "Iron-jugulis",
+    "name": "Iron Jugulis",
+    "aliases": [
+      "Pescoço Férreo",
+      "Pescoco Ferrea",
+      "Ferrocuello"
+    ],
     "types": [
       "dark",
       "flying"
@@ -8443,7 +9473,12 @@ const pokemonData = [
   },
   {
     "id": 994,
-    "name": "Iron-moth",
+    "name": "Iron Moth",
+    "aliases": [
+      "Mariposa Férrea",
+      "Mariposa Ferrea",
+      "Ferropolilla"
+    ],
     "types": [
       "fire",
       "poison"
@@ -8452,7 +9487,12 @@ const pokemonData = [
   },
   {
     "id": 995,
-    "name": "Iron-thorns",
+    "name": "Iron Thorns",
+    "aliases": [
+      "Espinhos Férreos",
+      "Espinhos Ferreas",
+      "Ferropúas"
+    ],
     "types": [
       "rock",
       "electric"
@@ -8462,6 +9502,7 @@ const pokemonData = [
   {
     "id": 996,
     "name": "Frigibax",
+    "aliases": [],
     "types": [
       "dragon",
       "ice"
@@ -8471,6 +9512,7 @@ const pokemonData = [
   {
     "id": 997,
     "name": "Arctibax",
+    "aliases": [],
     "types": [
       "dragon",
       "ice"
@@ -8480,6 +9522,7 @@ const pokemonData = [
   {
     "id": 998,
     "name": "Baxcalibur",
+    "aliases": [],
     "types": [
       "dragon",
       "ice"
@@ -8489,6 +9532,7 @@ const pokemonData = [
   {
     "id": 999,
     "name": "Gimmighoul",
+    "aliases": [],
     "types": [
       "ghost"
     ],
@@ -8497,6 +9541,7 @@ const pokemonData = [
   {
     "id": 1000,
     "name": "Gholdengo",
+    "aliases": [],
     "types": [
       "steel",
       "ghost"
@@ -8505,7 +9550,8 @@ const pokemonData = [
   },
   {
     "id": 1001,
-    "name": "Wo-chien",
+    "name": "Wo-Chien",
+    "aliases": [],
     "types": [
       "dark",
       "grass"
@@ -8514,7 +9560,8 @@ const pokemonData = [
   },
   {
     "id": 1002,
-    "name": "Chien-pao",
+    "name": "Chien-Pao",
+    "aliases": [],
     "types": [
       "dark",
       "ice"
@@ -8523,7 +9570,8 @@ const pokemonData = [
   },
   {
     "id": 1003,
-    "name": "Ting-lu",
+    "name": "Ting-Lu",
+    "aliases": [],
     "types": [
       "dark",
       "ground"
@@ -8532,7 +9580,8 @@ const pokemonData = [
   },
   {
     "id": 1004,
-    "name": "Chi-yu",
+    "name": "Chi-Yu",
+    "aliases": [],
     "types": [
       "dark",
       "fire"
@@ -8541,7 +9590,11 @@ const pokemonData = [
   },
   {
     "id": 1005,
-    "name": "Roaring-moon",
+    "name": "Roaring Moon",
+    "aliases": [
+      "Serpente Emplumada",
+      "Bramaluna"
+    ],
     "types": [
       "dragon",
       "dark"
@@ -8550,7 +9603,11 @@ const pokemonData = [
   },
   {
     "id": 1006,
-    "name": "Iron-valiant",
+    "name": "Iron Valiant",
+    "aliases": [
+      "Andarilho do Alvorecer",
+      "Ferropaladín"
+    ],
     "types": [
       "fairy",
       "fighting"
@@ -8560,6 +9617,9 @@ const pokemonData = [
   {
     "id": 1007,
     "name": "Koraidon",
+    "aliases": [
+      "Ogerpon"
+    ],
     "types": [
       "fighting",
       "dragon"
@@ -8569,6 +9629,7 @@ const pokemonData = [
   {
     "id": 1008,
     "name": "Miraidon",
+    "aliases": [],
     "types": [
       "electric",
       "dragon"
@@ -8577,7 +9638,11 @@ const pokemonData = [
   },
   {
     "id": 1009,
-    "name": "Walking-wake",
+    "name": "Walking Wake",
+    "aliases": [
+      "Lagarta Enrodilhada",
+      "Ondulagua"
+    ],
     "types": [
       "water",
       "dragon"
@@ -8586,7 +9651,12 @@ const pokemonData = [
   },
   {
     "id": 1010,
-    "name": "Iron-leaves",
+    "name": "Iron Leaves",
+    "aliases": [
+      "Folhas Férreas",
+      "Folhas Ferreas",
+      "Ferroverdor"
+    ],
     "types": [
       "grass",
       "psychic"
@@ -8596,6 +9666,7 @@ const pokemonData = [
   {
     "id": 1011,
     "name": "Dipplin",
+    "aliases": [],
     "types": [
       "grass",
       "dragon"
@@ -8605,6 +9676,9 @@ const pokemonData = [
   {
     "id": 1012,
     "name": "Poltchageist",
+    "aliases": [
+      "Poltchageist"
+    ],
     "types": [
       "grass",
       "ghost"
@@ -8614,6 +9688,9 @@ const pokemonData = [
   {
     "id": 1013,
     "name": "Sinistcha",
+    "aliases": [
+      "Sinistcha"
+    ],
     "types": [
       "grass",
       "ghost"
@@ -8623,6 +9700,9 @@ const pokemonData = [
   {
     "id": 1014,
     "name": "Okidogi",
+    "aliases": [
+      "Okidogi"
+    ],
     "types": [
       "poison",
       "fighting"
@@ -8632,6 +9712,9 @@ const pokemonData = [
   {
     "id": 1015,
     "name": "Munkidori",
+    "aliases": [
+      "Munkidori"
+    ],
     "types": [
       "poison",
       "psychic"
@@ -8641,6 +9724,9 @@ const pokemonData = [
   {
     "id": 1016,
     "name": "Fezandipiti",
+    "aliases": [
+      "Fezandipiti"
+    ],
     "types": [
       "poison",
       "fairy"
@@ -8650,6 +9736,9 @@ const pokemonData = [
   {
     "id": 1017,
     "name": "Ogerpon",
+    "aliases": [
+      "Ogerpon"
+    ],
     "types": [
       "grass"
     ],
@@ -8658,6 +9747,9 @@ const pokemonData = [
   {
     "id": 1018,
     "name": "Archaludon",
+    "aliases": [
+      "Archaludon"
+    ],
     "types": [
       "steel",
       "dragon"
@@ -8667,6 +9759,9 @@ const pokemonData = [
   {
     "id": 1019,
     "name": "Hydrapple",
+    "aliases": [
+      "Hydrapple"
+    ],
     "types": [
       "grass",
       "dragon"
@@ -8675,7 +9770,11 @@ const pokemonData = [
   },
   {
     "id": 1020,
-    "name": "Gouging-fire",
+    "name": "Gouging Fire",
+    "aliases": [
+      "Chama Atroz",
+      "Flamariete"
+    ],
     "types": [
       "fire",
       "dragon"
@@ -8684,7 +9783,12 @@ const pokemonData = [
   },
   {
     "id": 1021,
-    "name": "Raging-bolt",
+    "name": "Raging Bolt",
+    "aliases": [
+      "Raio Fúria",
+      "Raio Furia",
+      "Electrofuria"
+    ],
     "types": [
       "electric",
       "dragon"
@@ -8693,7 +9797,12 @@ const pokemonData = [
   },
   {
     "id": 1022,
-    "name": "Iron-boulder",
+    "name": "Iron Boulder",
+    "aliases": [
+      "Rocha Férrea",
+      "Rocha Ferrea",
+      "Ferromole"
+    ],
     "types": [
       "rock",
       "psychic"
@@ -8702,7 +9811,12 @@ const pokemonData = [
   },
   {
     "id": 1023,
-    "name": "Iron-crown",
+    "name": "Iron Crown",
+    "aliases": [
+      "Coroa Férrea",
+      "Coroa Ferrea",
+      "Ferrotesta"
+    ],
     "types": [
       "steel",
       "psychic"
@@ -8712,6 +9826,9 @@ const pokemonData = [
   {
     "id": 1024,
     "name": "Terapagos",
+    "aliases": [
+      "Terapagos"
+    ],
     "types": [
       "normal"
     ],
@@ -8720,10 +9837,13 @@ const pokemonData = [
   {
     "id": 1025,
     "name": "Pecharunt",
+    "aliases": [
+      "Pecharunt"
+    ],
     "types": [
       "poison",
       "ghost"
     ],
     "generation": 9
   }
-];
+];\n

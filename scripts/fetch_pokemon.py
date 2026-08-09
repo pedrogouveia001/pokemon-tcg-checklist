@@ -1,84 +1,130 @@
+"""
+Regenera pokemonData.js (espécies 1-1025) a partir da PokéAPI / CSV oficial.
+
+Uso:
+  python scripts/fetch_pokemon.py
+"""
+import csv
+import io
 import json
-import urllib.request
-import urllib.error
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# Aliases em PT-BR para busca (PokéAPI não publica nomes pt-BR).
+PT_ALIASES = {
+    984: ["Presa Grande"],
+    985: ["Cara de Pau"],
+    986: ["Capuz de Tormenta"],
+    987: ["Juba Voadora"],
+    988: ["Rastejante"],
+    989: ["Terracoleta"],
+    1005: ["Serpente Emplumada"],
+    1006: ["Andarilho do Alvorecer"],
+    1009: ["Lagarta Enrodilhada"],
+    1010: ["Folhas Férreas", "Folhas Ferreas"],
+    1020: ["Chama Atroz"],
+    1021: ["Raio Fúria", "Raio Furia"],
+    1022: ["Rocha Férrea", "Rocha Ferrea"],
+    1023: ["Coroa Férrea", "Coroa Ferrea"],
+}
+
 
 def get_generation(pokemon_id):
-    if 1 <= pokemon_id <= 151:
+    if pokemon_id <= 151:
         return 1
-    elif 152 <= pokemon_id <= 251:
+    if pokemon_id <= 251:
         return 2
-    elif 252 <= pokemon_id <= 386:
+    if pokemon_id <= 386:
         return 3
-    elif 387 <= pokemon_id <= 493:
+    if pokemon_id <= 493:
         return 4
-    elif 494 <= pokemon_id <= 649:
+    if pokemon_id <= 649:
         return 5
-    elif 650 <= pokemon_id <= 721:
+    if pokemon_id <= 721:
         return 6
-    elif 722 <= pokemon_id <= 809:
+    if pokemon_id <= 809:
         return 7
-    elif 810 <= pokemon_id <= 905:
+    if pokemon_id <= 905:
         return 8
-    elif 906 <= pokemon_id <= 1025:
-        return 9
-    return 9 # Default for new
+    return 9
 
-def fetch_pokemon_details(pokemon_id):
-    url = f"https://pokeapi.co/api/v2/pokemon/{pokemon_id}"
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    try:
-        with urllib.request.urlopen(req) as response:
-            data = json.loads(response.read().decode())
-            name = data['name'].capitalize()
-            types = [t['type']['name'] for t in data['types']]
-            # Keep types in English as it maps nicely, we will map/translate them in JS
-            return {
-                "id": pokemon_id,
-                "name": name,
-                "types": types,
-                "generation": get_generation(pokemon_id)
-            }
-    except Exception as e:
-        print(f"Error fetching Pokemon {pokemon_id}: {e}")
-        return None
+
+def fetch_text(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "pokemon-tcg-checklist/1.0"})
+    with urllib.request.urlopen(req, timeout=60) as response:
+        return response.read().decode("utf-8")
+
+
+def fetch_json(url):
+    return json.loads(fetch_text(url))
+
+
+def load_species_names():
+    csv_text = fetch_text(
+        "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_species_names.csv"
+    )
+    en, es = {}, {}
+    reader = csv.DictReader(io.StringIO(csv_text))
+    for row in reader:
+        sid = int(row["pokemon_species_id"])
+        lang = row["local_language_id"]
+        if lang == "9":
+            en[sid] = row["name"]
+        elif lang == "7":
+            es[sid] = row["name"]
+    return en, es
+
+
+def fetch_types(pokemon_id):
+    data = fetch_json(f"https://pokeapi.co/api/v2/pokemon/{pokemon_id}")
+    return [t["type"]["name"] for t in data["types"]]
+
 
 def main():
-    print("Iniciando a busca de dados da PokeAPI...")
-    pokemon_list = []
-    
-    # Fetch 1025 Pokémon (Gens 1-9)
-    total_pokemon = 1025
-    
-    # Using ThreadPoolExecutor for fast concurrent fetching
-    with ThreadPoolExecutor(max_workers=50) as executor:
-        futures = {executor.submit(fetch_pokemon_details, i): i for i in range(1, total_pokemon + 1)}
-        
-        completed = 0
+    print("Carregando nomes oficiais (EN/ES)...")
+    en_names, es_names = load_species_names()
+    total = 1025
+    if len(en_names) < total:
+        raise SystemExit(f"CSV incompleto: {len(en_names)} nomes EN")
+
+    print("Buscando tipos na PokéAPI...")
+    types_by_id = {}
+    with ThreadPoolExecutor(max_workers=20) as executor:
+        futures = {executor.submit(fetch_types, i): i for i in range(1, total + 1)}
+        done = 0
         for future in as_completed(futures):
-            res = future.result()
-            if res:
-                pokemon_list.append(res)
-            completed += 1
-            if completed % 50 == 0 or completed == total_pokemon:
-                print(f"Progresso: {completed}/{total_pokemon} Pokémon buscados...")
-                
-    # Sort by ID
-    pokemon_list.sort(key=lambda x: x['id'])
-    
-    # Write to pokemonData.js
-    output_dir = os.path.join(os.path.dirname(__file__), "..")
-    os.makedirs(output_dir, exist_ok=True)
-    output_path = os.path.join(output_dir, "pokemonData.js")
-    
+            pid = futures[future]
+            types_by_id[pid] = future.result()
+            done += 1
+            if done % 50 == 0 or done == total:
+                print(f"Progresso tipos: {done}/{total}")
+
+    pokemon_list = []
+    for i in range(1, total + 1):
+        aliases = list(PT_ALIASES.get(i, []))
+        es = es_names.get(i)
+        if es and es != en_names[i] and es not in aliases:
+            aliases.append(es)
+        pokemon_list.append(
+            {
+                "id": i,
+                "name": en_names[i],
+                "aliases": aliases,
+                "types": types_by_id[i],
+                "generation": get_generation(i),
+            }
+        )
+
+    output_path = os.path.join(os.path.dirname(__file__), "..", "pokemonData.js")
     with open(output_path, "w", encoding="utf-8") as f:
-        f.write("// Banco de dados estatico de Pokemon (1-1025) gerado automaticamente\n")
+        f.write("// Banco de dados estático de Pokémon (1-1025) gerado automaticamente\n")
         f.write("const pokemonData = ")
         json.dump(pokemon_list, f, ensure_ascii=False, indent=2)
         f.write(";\n")
-        
-    print(f"Arquivo pokemonData.js gerado com sucesso em {output_path}!")
+
+    print(f"Salvo {len(pokemon_list)} espécies em {output_path}")
+
 
 if __name__ == "__main__":
     main()

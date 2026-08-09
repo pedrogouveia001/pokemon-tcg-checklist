@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#3b82f6">
-  <meta name="description" content="Marque suas cartas do Pokémon TCG e acompanhe o progresso na Pokédex Nacional.">
+  <meta name="description" content="Checklist da Pokédex Nacional: marque os Pokémon que você já tem.">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="TCG Checklist">
-  <title>Pokémon TCG Coleção & Checklist</title>
+  <meta name="apple-mobile-web-app-title" content="Pokédex Checklist">
+  <title>Pokédex Checklist</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">
   <!-- Lucide Icons for clean aesthetic icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
@@ -23,9 +23,9 @@
       <div class="header-title">
         <h1>
           <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles" style="color: #ca8a04;"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275Z"/><path d="m5 3 1 2.5L8.5 6 6 7 5 9.5 4 7 1.5 6 4 5.5Z"/><path d="m19 17 1 2.5 2.5.5-2.5 1-1 2.5-1-2.5-2.5-1 2.5-1Z"/></svg>
-          Pokémon TCG Checklist
+          Pokédex Checklist
         </h1>
-        <p>Marque suas cartas do Pokémon TCG e acompanhe seu progresso na Pokédex Nacional</p>
+        <p>Marque os Pokémon que você já tem e acompanhe o progresso na Pokédex Nacional (1–1025)</p>
       </div>
     </header>
 
@@ -49,10 +49,10 @@
           <div class="progress-circle-wrapper">
             <svg class="circle-svg">
               <circle class="circle-bg" cx="50" cy="50" r="40" />
-              <circle id="cards-progress-circle" class="circle-val circle-val-cards" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="251.2" />
+              <circle id="owned-progress-circle" class="circle-val circle-val-cards" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="251.2" />
             </svg>
-            <span id="cards-progress-text" class="circle-text">0</span>
-            <span class="circle-label">Total de Cartas</span>
+            <span id="owned-progress-text" class="circle-text">0</span>
+            <span class="circle-label">Pokémon Obtidos</span>
           </div>
         </div>
       </div>
@@ -65,17 +65,24 @@
         </div>
         <div class="stats-grid">
           <div class="stat-item">
-            <div class="stat-icon" style="color: #ca8a04;">🃏</div>
+            <div class="stat-icon" style="color: #16a34a;">✓</div>
             <div class="stat-info">
-              <span id="stat-total-cards" class="stat-number">0</span>
-              <span class="stat-name">Cartas Colecionadas</span>
+              <span id="stat-owned-pokemon" class="stat-number">0</span>
+              <span class="stat-name">Obtidos</span>
             </div>
           </div>
           <div class="stat-item">
             <div class="stat-icon" style="color: #2563eb;">🔴</div>
             <div class="stat-info">
               <span id="stat-unique-pokemon" class="stat-number">0 / 1025</span>
-              <span class="stat-name">Pokémon Registrados</span>
+              <span class="stat-name">Progresso da Pokédex</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon" style="color: #94a3b8;">○</div>
+            <div class="stat-info">
+              <span id="stat-missing-pokemon" class="stat-number">1025</span>
+              <span class="stat-name">Faltando</span>
             </div>
           </div>
         </div>
@@ -117,9 +124,9 @@
         <div class="select-wrapper">
           <!-- Status de Coleção -->
           <select id="status-filter" class="filter-select">
-            <option value="all">Todas as cartas</option>
-            <option value="owned">Pokémon colecionados (Possui carta)</option>
-            <option value="missing">Pokémon não colecionados (0 cartas)</option>
+            <option value="all">Todos os Pokémon</option>
+            <option value="owned">Já obtidos</option>
+            <option value="missing">Ainda faltando</option>
           </select>
 
           <!-- Ordenação -->
@@ -172,60 +179,41 @@
 
     <!-- Footer -->
     <footer>
-      <p>Desenvolvido com carinho para colecionadores de Pokémon TCG. Dados fornecidos por <a href="https://pokeapi.co/" target="_blank">PokéAPI</a> e <a href="https://tcgdex.net/" target="_blank">TCGdex</a>.</p>
+      <p>Checklist da Pokédex Nacional (1025 espécies). Dados de nomes/tipos via <a href="https://pokeapi.co/" target="_blank">PokéAPI</a>.</p>
     </footer>
   </div>
 
   <!-- Modal de Detalhes -->
   <div id="pokemon-modal" class="modal-overlay">
-    <div class="modal-container">
+    <div class="modal-container modal-container-simple">
       <button class="modal-close-btn" id="modal-close-btn">
         <i data-lucide="x"></i>
       </button>
-      <div class="modal-content">
-        <!-- Esquerda: Informações do Pokémon -->
+      <div class="modal-content modal-content-simple">
         <div class="modal-left-panel">
           <span class="modal-pokemon-id" id="modal-pokemon-id">#001</span>
           <h2 class="modal-pokemon-name" id="modal-pokemon-name">Bulbasaur</h2>
           <img class="modal-pokemon-img" id="modal-pokemon-img" src="" alt="">
-          <div class="modal-pokemon-types" id="modal-pokemon-types">
-            <!-- Badges de tipos -->
-          </div>
+          <div class="modal-pokemon-types" id="modal-pokemon-types"></div>
           <div class="modal-pokemon-details">
             <div class="detail-row">
               <span class="detail-label">Geração</span>
               <span class="detail-value" id="modal-gen-val">1ª Geração</span>
             </div>
             <div class="detail-row">
-              <span class="detail-label">Cartas Possuídas</span>
-              <span class="detail-value" id="modal-cards-owned-val">0</span>
+              <span class="detail-label">Na coleção</span>
+              <span class="detail-value" id="modal-owned-val">Não</span>
             </div>
           </div>
-        </div>
-        <!-- Direita: Cartas TCG -->
-        <div class="modal-right-panel">
-          <div class="tcg-header">
-            <div class="tcg-header-title">
-              <h3>Cartas Oficiais do TCG</h3>
-              <p>Clique em uma carta para marcar se você a possui na sua coleção física</p>
-            </div>
-            <div class="tcg-counter" id="modal-tcg-counter">
-              0 de 0 cartas
-            </div>
-          </div>
-          <div class="tcg-grid-scroll">
-            <div class="tcg-cards-grid" id="tcg-cards-grid">
-              <!-- Cartas carregadas dinamicamente -->
-            </div>
-          </div>
+          <button type="button" class="modal-toggle-owned-btn" id="modal-toggle-owned-btn">
+            Marcar como obtido
+          </button>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Banco de dados estático compilado -->
-  <script src="pokemonData.js"></script>
-  <!-- Lógica da aplicação -->
-  <script src="app.js?v=3"></script>
+  <script src="pokemonData.js?v=2"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

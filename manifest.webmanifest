@@ -1,7 +1,7 @@
 {
-  "name": "Pokémon TCG Checklist",
-  "short_name": "TCG Checklist",
-  "description": "Marque suas cartas do Pokémon TCG e acompanhe o progresso na Pokédex Nacional.",
+  "name": "Pokédex Checklist",
+  "short_name": "Pokédex",
+  "description": "Marque os Pokémon da Pokédex Nacional (1–1025) que você já tem.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
